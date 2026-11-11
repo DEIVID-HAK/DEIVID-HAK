@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-label="Contact David Velez from the terminal">
   <defs>
     <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B1D33"/>
-      <stop offset="0.6" stop-color="#081627"/>
-      <stop offset="1" stop-color="#06101F"/>
+      <stop offset="0" stop-color="#1E0710"/>
+      <stop offset="0.6" stop-color="#19050C"/>
+      <stop offset="1" stop-color="#120409"/>
     </linearGradient>
     <linearGradient id="cbar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#102A44"/>
-      <stop offset="1" stop-color="#0B1D33"/>
+      <stop offset="0" stop-color="#2E0A17"/>
+      <stop offset="1" stop-color="#1E0710"/>
     </linearGradient>
     <linearGradient id="caccent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#00B4D8"/>
-      <stop offset="1" stop-color="#48CAE4" stop-opacity="0"/>
+      <stop offset="0" stop-color="#B01E45"/>
+      <stop offset="1" stop-color="#E0608A" stop-opacity="0"/>
     </linearGradient>
     <radialGradient id="cglow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#00B4D8" stop-opacity="0.14"/>
-      <stop offset="1" stop-color="#00B4D8" stop-opacity="0"/>
+      <stop offset="0" stop-color="#B01E45" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#B01E45" stop-opacity="0"/>
     </radialGradient>
     <clipPath id="cClip">
       <rect x="20" y="20" width="960" height="240" rx="16"/>
@@ -35,53 +35,53 @@
     <circle cx="900" cy="100" r="180" fill="url(#cglow)"/>
 
     <rect x="20" y="20" width="960" height="34" fill="url(#cbar)"/>
-    <rect x="20" y="54" width="960" height="1" fill="#1B3A5C"/>
+    <rect x="20" y="54" width="960" height="1" fill="#5A1230"/>
 
     <circle cx="44" cy="37" r="5" fill="#FF5F56"/>
     <circle cx="62" cy="37" r="5" fill="#FFBD2E"/>
     <circle cx="80" cy="37" r="5" fill="#27C93F"/>
-    <text x="112" y="42" class="mono" font-size="11" fill="#5B7A99">david@velez-dev: ~/contact</text>
+    <text x="112" y="42" class="mono" font-size="11" fill="#A86C80">david@velez-dev: ~/contact</text>
 
-    <rect x="914" y="29" width="44" height="18" rx="9" fill="#0F2F4A" stroke="#1B3A5C"/>
-    <text x="936" y="42" class="mono" font-size="9" fill="#90E0EF" text-anchor="middle">bash</text>
+    <rect x="914" y="29" width="44" height="18" rx="9" fill="#3B0E1E" stroke="#5A1230"/>
+    <text x="936" y="42" class="mono" font-size="9" fill="#F6C6D2" text-anchor="middle">bash</text>
 
-    <text x="44" y="82" class="mono" font-size="14" fill="#2EE59D">$</text>
-    <text x="60" y="82" class="mono" font-size="14" fill="#E2E8F0">contact</text>
-    <text x="132" y="82" class="mono" font-size="14" fill="#48CAE4">--david</text>
-    <rect x="208" y="69" width="2" height="15" fill="#48CAE4" class="cursor"/>
+    <text x="44" y="82" class="mono" font-size="14" fill="#E0A64A">$</text>
+    <text x="60" y="82" class="mono" font-size="14" fill="#F8E8ED">contact</text>
+    <text x="132" y="82" class="mono" font-size="14" fill="#E0608A">--david</text>
+    <rect x="208" y="69" width="2" height="15" fill="#E0608A" class="cursor"/>
 
-    <text x="44" y="110" class="mono" font-size="13.5" fill="#90E0EF">&gt; email</text>
-    <text x="144" y="110" class="mono" font-size="13.5" fill="#E2E8F0">daviidvp228@gmail.com</text>
+    <text x="44" y="110" class="mono" font-size="13.5" fill="#F6C6D2">&gt; email</text>
+    <text x="144" y="110" class="mono" font-size="13.5" fill="#F8E8ED">daviidvp228@gmail.com</text>
 
-    <text x="44" y="134" class="mono" font-size="13.5" fill="#90E0EF">&gt; github</text>
-    <text x="144" y="134" class="mono" font-size="13.5" fill="#E2E8F0">github.com/DAVIDVLEZ-DEVELOPER</text>
+    <text x="44" y="134" class="mono" font-size="13.5" fill="#F6C6D2">&gt; github</text>
+    <text x="144" y="134" class="mono" font-size="13.5" fill="#F8E8ED">github.com/DAVIDVLEZ-DEVELOPER</text>
 
-    <text x="44" y="158" class="mono" font-size="13.5" fill="#90E0EF">&gt; youtube</text>
-    <text x="144" y="158" class="mono" font-size="13.5" fill="#E2E8F0">youtube.com/@DEIIVIDVLEZ</text>
+    <text x="44" y="158" class="mono" font-size="13.5" fill="#F6C6D2">&gt; youtube</text>
+    <text x="144" y="158" class="mono" font-size="13.5" fill="#F8E8ED">youtube.com/@DEIIVIDVLEZ</text>
 
-    <line x1="620" y1="72" x2="620" y2="164" stroke="#1B3A5C"/>
+    <line x1="620" y1="72" x2="620" y2="164" stroke="#5A1230"/>
 
-    <text x="650" y="82" class="mono" font-size="13.5" fill="#90E0EF">&gt; location</text>
-    <text x="760" y="82" class="mono" font-size="13.5" fill="#E2E8F0">Medellín, CO · UTC-5</text>
+    <text x="650" y="82" class="mono" font-size="13.5" fill="#F6C6D2">&gt; location</text>
+    <text x="760" y="82" class="mono" font-size="13.5" fill="#F8E8ED">Medellín, CO · UTC-5</text>
 
-    <text x="650" y="106" class="mono" font-size="13.5" fill="#90E0EF">&gt; status</text>
-    <circle cx="766" cy="101" r="3.5" fill="#2EE59D" class="pulse"/>
-    <text x="776" y="106" class="mono" font-size="13.5" fill="#2EE59D">open to work</text>
+    <text x="650" y="106" class="mono" font-size="13.5" fill="#F6C6D2">&gt; status</text>
+    <circle cx="766" cy="101" r="3.5" fill="#E0A64A" class="pulse"/>
+    <text x="776" y="106" class="mono" font-size="13.5" fill="#E0A64A">open to work</text>
 
-    <text x="650" y="130" class="mono" font-size="13.5" fill="#90E0EF">&gt; focus</text>
-    <text x="760" y="130" class="mono" font-size="13.5" fill="#E2E8F0">Full Stack · Backend-first</text>
+    <text x="650" y="130" class="mono" font-size="13.5" fill="#F6C6D2">&gt; focus</text>
+    <text x="760" y="130" class="mono" font-size="13.5" fill="#F8E8ED">Full Stack · Backend-first</text>
 
-    <text x="650" y="154" class="mono" font-size="13.5" fill="#90E0EF">&gt; stack</text>
-    <text x="760" y="154" class="mono" font-size="13.5" fill="#E2E8F0">Java · React · PostgreSQL</text>
+    <text x="650" y="154" class="mono" font-size="13.5" fill="#F6C6D2">&gt; stack</text>
+    <text x="760" y="154" class="mono" font-size="13.5" fill="#F8E8ED">Java · React · PostgreSQL</text>
 
-    <rect x="40" y="184" width="920" height="48" rx="10" fill="#0F2F4A" stroke="#1B3A5C"/>
-    <rect x="40" y="186" width="3" height="44" rx="1.5" fill="#00B4D8"/>
+    <rect x="40" y="184" width="920" height="48" rx="10" fill="#3B0E1E" stroke="#5A1230"/>
+    <rect x="40" y="186" width="3" height="44" rx="1.5" fill="#B01E45"/>
     <rect x="41" y="184" width="918" height="2" rx="1" fill="url(#caccent)"/>
-    <text x="64" y="214" class="mono" font-size="15" fill="#2EE59D">$</text>
-    <text x="80" y="214" class="mono" font-size="15" fill="#E2E8F0">let's build something that ships</text>
-    <rect x="372" y="200" width="2" height="17" fill="#48CAE4" class="cursor"/>
-    <text x="908" y="214" class="mono" font-size="15" fill="#48CAE4" text-anchor="end">→</text>
+    <text x="64" y="214" class="mono" font-size="15" fill="#E0A64A">$</text>
+    <text x="80" y="214" class="mono" font-size="15" fill="#F8E8ED">let's build something that ships</text>
+    <rect x="372" y="200" width="2" height="17" fill="#E0608A" class="cursor"/>
+    <text x="908" y="214" class="mono" font-size="15" fill="#E0608A" text-anchor="end">→</text>
   </g>
 
-  <rect x="20" y="20" width="960" height="240" rx="16" fill="none" stroke="#1B3A5C" stroke-width="1.5"/>
+  <rect x="20" y="20" width="960" height="240" rx="16" fill="none" stroke="#5A1230" stroke-width="1.5"/>
 </svg>
