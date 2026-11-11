@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="222" viewBox="0 0 1200 222" role="img" aria-label="Flujo de trabajo: entender, modelar, construir, verificar y desplegar.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#080205"/>
+      <stop offset="1" stop-color="#1B0610"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4A1024"/>
+      <stop offset="0.5" stop-color="#E0608A"/>
+      <stop offset="1" stop-color="#4A1024"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="222" rx="20"/></clipPath>
+    <style>
+      .sans { font-family: 'Segoe UI', 'Inter', Arial, sans-serif; }
+      .mono { font-family: 'Cascadia Code', 'Consolas', 'Courier New', monospace; }
+      .pulse { animation: pulse 3s ease-in-out infinite; }
+      .p1 { animation-delay: 0s; }
+      .p2 { animation-delay: .6s; }
+      .p3 { animation-delay: 1.2s; }
+      .p4 { animation-delay: 1.8s; }
+      .p5 { animation-delay: 2.4s; }
+      @keyframes pulse { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+      .flow { stroke-dasharray: 5 10; animation: flow 3s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -45; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="222" fill="url(#bg)"/>
+    <text class="mono" x="48" y="44" font-size="11" letter-spacing="4" fill="#E0608A">[ FLUJO DE TRABAJO ]</text>
+    <text class="mono" x="1152" y="44" text-anchor="end" font-size="10" fill="#7A5060">el mismo en cada proyecto</text>
+
+    <line x1="132" y1="112" x2="1068" y2="112" stroke="url(#rail)" stroke-width="1.6" class="flow"/>
+
+    <g transform="translate(120 112)">
+      <circle r="27" fill="#180509" stroke="#B01E45" stroke-width="1.6"/>
+      <circle r="27" fill="none" stroke="#E0608A" stroke-width="1.6" opacity="0.35" class="pulse p1"/>
+      <text class="mono" y="5" text-anchor="middle" font-size="13" font-weight="700" fill="#E0608A">01</text>
+      <text class="sans" y="60" text-anchor="middle" font-size="13.5" font-weight="700" fill="#FFF3F6">Entender</text>
+      <text class="mono" y="80" text-anchor="middle" font-size="9.5" fill="#8A5F6F">requisitos y límites</text>
+    </g>
+
+    <g transform="translate(360 112)">
+      <circle r="27" fill="#180509" stroke="#B01E45" stroke-width="1.6"/>
+      <circle r="27" fill="none" stroke="#E0608A" stroke-width="1.6" opacity="0.35" class="pulse p2"/>
+      <text class="mono" y="5" text-anchor="middle" font-size="13" font-weight="700" fill="#E0608A">02</text>
+      <text class="sans" y="60" text-anchor="middle" font-size="13.5" font-weight="700" fill="#FFF3F6">Modelar</text>
+      <text class="mono" y="80" text-anchor="middle" font-size="9.5" fill="#8A5F6F">datos y contratos</text>
+    </g>
+
+    <g transform="translate(600 112)">
+      <circle r="27" fill="#180509" stroke="#B01E45" stroke-width="1.6"/>
+      <circle r="27" fill="none" stroke="#E0608A" stroke-width="1.6" opacity="0.35" class="pulse p3"/>
+      <text class="mono" y="5" text-anchor="middle" font-size="13" font-weight="700" fill="#E0608A">03</text>
+      <text class="sans" y="60" text-anchor="middle" font-size="13.5" font-weight="700" fill="#FFF3F6">Construir</text>
+      <text class="mono" y="80" text-anchor="middle" font-size="9.5" fill="#8A5F6F">API e interfaz</text>
+    </g>
+
+    <g transform="translate(840 112)">
+      <circle r="27" fill="#180509" stroke="#B01E45" stroke-width="1.6"/>
+      <circle r="27" fill="none" stroke="#E0608A" stroke-width="1.6" opacity="0.35" class="pulse p4"/>
+      <text class="mono" y="5" text-anchor="middle" font-size="13" font-weight="700" fill="#E0608A">04</text>
+      <text class="sans" y="60" text-anchor="middle" font-size="13.5" font-weight="700" fill="#FFF3F6">Verificar</text>
+      <text class="mono" y="80" text-anchor="middle" font-size="9.5" fill="#8A5F6F">pruebas y revisión</text>
+    </g>
+
+    <g transform="translate(1080 112)">
+      <circle r="27" fill="#180509" stroke="#B01E45" stroke-width="1.6"/>
+      <circle r="27" fill="none" stroke="#E0608A" stroke-width="1.6" opacity="0.35" class="pulse p5"/>
+      <text class="mono" y="5" text-anchor="middle" font-size="13" font-weight="700" fill="#E0608A">05</text>
+      <text class="sans" y="60" text-anchor="middle" font-size="13.5" font-weight="700" fill="#FFF3F6">Desplegar</text>
+      <text class="mono" y="80" text-anchor="middle" font-size="9.5" fill="#8A5F6F">contenedor y CI</text>
+    </g>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="220.5" rx="19.25" fill="none" stroke="#7E1030" stroke-opacity="0.6" stroke-width="1.5"/>
+</svg>

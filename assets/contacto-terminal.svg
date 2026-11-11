@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Contacto de David Velez: correo, GitHub, YouTube, ubicación y estado.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0307"/>
+      <stop offset="1" stop-color="#1B0610"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1E0610"/>
+      <stop offset="1" stop-color="#2A0A14"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1000" height="300" rx="18"/></clipPath>
+    <style>
+      .mono { font-family: 'Cascadia Code', 'Consolas', 'Courier New', monospace; }
+      .sans { font-family: 'Segoe UI', 'Inter', Arial, sans-serif; }
+      .pulse { animation: pulse 3s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: .4; } 50% { opacity: 1; } }
+      .cursor { animation: blink 1.5s steps(1) infinite; }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect width="1000" height="38" fill="url(#bar)"/>
+    <circle cx="22" cy="19" r="4.5" fill="#E0608A"/>
+    <circle cx="39" cy="19" r="4.5" fill="#B01E45"/>
+    <circle cx="56" cy="19" r="4.5" fill="#5A1230"/>
+    <text class="mono" x="78" y="23" font-size="11" fill="#A86C80">david@velez-dev: ~/contacto</text>
+    <text class="mono" x="972" y="23" text-anchor="end" font-size="9.5" fill="#7A5060">bash</text>
+    <line x1="0" y1="38" x2="1000" y2="38" stroke="#4A1024"/>
+
+    <text class="mono" x="44" y="76" font-size="14" fill="#E0608A">$</text>
+    <text class="mono" x="62" y="76" font-size="14" fill="#F8E8ED">whoami</text>
+
+    <text class="sans" x="44" y="108" font-size="16" font-weight="700" fill="#FFF3F6">David Vélez</text>
+    <text class="sans" x="44" y="128" font-size="12" fill="#B08A98">Desarrollador full stack · Backend, APIs y datos</text>
+
+    <g transform="translate(44 158)">
+      <text class="mono" x="0" y="0" font-size="12.5" fill="#E0608A">email</text>
+      <text class="mono" x="100" y="0" font-size="12.5" fill="#F8E8ED">daviidvp228@gmail.com</text>
+      <text class="mono" x="0" y="26" font-size="12.5" fill="#E0608A">github</text>
+      <text class="mono" x="100" y="26" font-size="12.5" fill="#F8E8ED">github.com/DAVIDVLEZ-DEVELOPER</text>
+      <text class="mono" x="0" y="52" font-size="12.5" fill="#E0608A">youtube</text>
+      <text class="mono" x="100" y="52" font-size="12.5" fill="#F8E8ED">youtube.com/@DEIIVIDVLEZ</text>
+    </g>
+
+    <line x1="500" y1="92" x2="500" y2="206" stroke="#4A1024"/>
+
+    <g transform="translate(534 92)">
+      <text class="mono" x="0" y="0" font-size="10" letter-spacing="2" fill="#7A5060">UBICACIÓN</text>
+      <text class="sans" x="0" y="22" font-size="13" fill="#DBAEBE">Medellín, Colombia · UTC-5</text>
+
+      <text class="mono" x="0" y="58" font-size="10" letter-spacing="2" fill="#7A5060">ESTADO</text>
+      <circle cx="5" cy="78" r="4" fill="#7EE0A8" class="pulse"/>
+      <text class="sans" x="18" y="82" font-size="13" fill="#DBAEBE">Abierto a prácticas y roles junior</text>
+
+      <text class="mono" x="0" y="118" font-size="10" letter-spacing="2" fill="#7A5060">ENFOQUE</text>
+      <text class="sans" x="0" y="140" font-size="13" fill="#DBAEBE">Backend · APIs REST · Modelado de datos</text>
+    </g>
+
+    <text class="mono" x="44" y="248" font-size="13" fill="#E0608A">$</text>
+    <text class="mono" x="62" y="248" font-size="13" fill="#F8E8ED">echo "hablemos de tu próximo proyecto"</text>
+    <rect class="cursor" x="372" y="236" width="8" height="15" fill="#E0608A"/>
+    <text class="mono" x="956" y="280" text-anchor="end" font-size="10" fill="#7A5060">DAVID VELEZ · 2026</text>
+  </g>
+
+  <rect x="0.75" y="0.75" width="998.5" height="298.5" rx="17.25" fill="none" stroke="#7E1030" stroke-opacity="0.6" stroke-width="1.5"/>
+</svg>

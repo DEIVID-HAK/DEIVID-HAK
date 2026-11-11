@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="116" viewBox="0 0 1200 116" role="img" aria-label="David Velez, desarrollador full stack en Medellín. Disponible para prácticas y roles junior.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B0307"/>
+      <stop offset="0.5" stop-color="#15050C"/>
+      <stop offset="1" stop-color="#1E0610"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B01E45" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#B01E45"/>
+      <stop offset="1" stop-color="#B01E45" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="116" rx="18"/></clipPath>
+    <style>
+      .sans { font-family: 'Segoe UI', 'Inter', Arial, sans-serif; }
+      .mono { font-family: 'Cascadia Code', 'Consolas', 'Courier New', monospace; }
+      .pulse { animation: pulse 3s ease-in-out infinite; }
+      @keyframes pulse { 0%, 100% { opacity: .4; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="116" fill="url(#bg)"/>
+    <line x1="0" y1="1" x2="1200" y2="1" stroke="url(#line)" stroke-opacity="0.7"/>
+
+    <text class="sans" x="48" y="46" font-size="21" font-weight="800" letter-spacing="-0.4" fill="#FFF3F6">David Vélez</text>
+    <text class="sans" x="48" y="70" font-size="12" fill="#B08A98">Desarrollador full stack · Backend, APIs y datos</text>
+
+    <line x1="420" y1="32" x2="420" y2="80" stroke="#4A1024"/>
+
+    <text class="mono" x="450" y="46" font-size="10" letter-spacing="2" fill="#7A5060">UBICACIÓN</text>
+    <text class="sans" x="450" y="69" font-size="12.5" fill="#DBAEBE">Medellín, Colombia · UTC-5</text>
+
+    <line x1="760" y1="32" x2="760" y2="80" stroke="#4A1024"/>
+
+    <text class="mono" x="790" y="46" font-size="10" letter-spacing="2" fill="#7A5060">ESTADO</text>
+    <circle cx="795" cy="65" r="4" fill="#7EE0A8" class="pulse"/>
+    <text class="sans" x="808" y="69" font-size="12.5" fill="#DBAEBE">Prácticas y roles junior</text>
+
+    <text class="mono" x="1152" y="46" text-anchor="end" font-size="10" letter-spacing="1.4" fill="#7A5060">@DAVIDVLEZ-DEVELOPER</text>
+    <text class="mono" x="1152" y="69" text-anchor="end" font-size="10" fill="#7A5060">2026 · hecho con criterio</text>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="114.5" rx="17.25" fill="none" stroke="#7E1030" stroke-opacity="0.55" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="190" viewBox="0 0 470 190" role="img" aria-label="Proyecto Agenda SDD: tareas y compromisos con reglas de negocio deterministas.">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B01E45"/>
+      <stop offset="1" stop-color="#7E1030"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E0608A" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#E0608A" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#E0608A" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="470" height="190" rx="14"/></clipPath>
+    <style>
+      .shine { animation: sweep 4s linear infinite; }
+      @keyframes sweep { from { transform: translateX(-150px); } to { transform: translateX(470px); } }
+    </style>
+  </defs>
+  <rect width="470" height="190" rx="14" fill="#180509"/>
+  <g transform="translate(406 96) scale(1.25)" opacity="0.22">
+    <rect x="-34" y="-40" width="68" height="80" rx="10" fill="none" stroke="#E0608A" stroke-width="1.6"/>
+    <line x1="-34" y1="-26" x2="34" y2="-26" stroke="#E0608A" stroke-width="1.6"/>
+    <line x1="-34" y1="-10" x2="34" y2="-10" stroke="#E0608A" stroke-width="1.2"/>
+    <line x1="-34" y1="6" x2="34" y2="6" stroke="#E0608A" stroke-width="1.2"/>
+    <line x1="-34" y1="22" x2="18" y2="22" stroke="#E0608A" stroke-width="1.2"/>
+    <circle cx="-26" cy="-19" r="2.2" fill="#E0608A"/>
+    <circle cx="-19" cy="-19" r="2.2" fill="#E0608A"/>
+  </g>
+  <rect width="470" height="190" rx="14" fill="none" stroke="url(#g)" stroke-width="1.5"/>
+  <g clip-path="url(#clip)"><rect class="shine" x="0" y="0" width="150" height="3" fill="url(#shine)"/></g>
+
+  <rect x="24" y="24" width="52" height="52" rx="14" fill="#2A0A14" stroke="#B01E45" stroke-opacity="0.6"/>
+  <text x="50" y="57" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#E0608A">SDD</text>
+  <text x="92" y="47" font-family="'Segoe UI',Arial,sans-serif" font-size="19" font-weight="700" fill="#FFF3F6">Agenda SDD — Tareas</text>
+  <text x="92" y="70" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#B08A98">agendalili</text>
+
+  <text x="24" y="114" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#DBAEBE">Reglas de negocio deterministas sobre SQLite,</text>
+  <text x="24" y="134" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#DBAEBE">contratos TypeScript y UI glassmorphism.</text>
+
+  <rect x="24" y="152" width="78" height="24" rx="12" fill="#2A0A14" stroke="#4A1024"/>
+  <text x="63" y="168" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#B08A98">Node.js</text>
+  <rect x="110" y="152" width="62" height="24" rx="12" fill="#2A0A14" stroke="#4A1024"/>
+  <text x="141" y="168" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#B08A98">SQLite</text>
+  <rect x="180" y="152" width="86" height="24" rx="12" fill="#2A0A14" stroke="#4A1024"/>
+  <text x="223" y="168" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#B08A98">TypeScript</text>
+</svg>

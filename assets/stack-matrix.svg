@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="452" viewBox="0 0 1200 452" role="img" aria-label="Mapa de capacidades de David Velez: backend, datos, frontend y entrega.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080205"/>
+      <stop offset="1" stop-color="#1B0610"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B01E45" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#E0608A"/>
+      <stop offset="1" stop-color="#B01E45" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="452" rx="24"/></clipPath>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#B01E45" stroke-opacity="0.10" stroke-width="1"/>
+    </pattern>
+    <style>
+      .sans { font-family: 'Segoe UI', 'Inter', Arial, sans-serif; }
+      .mono { font-family: 'Cascadia Code', 'Consolas', 'Courier New', monospace; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="452" fill="url(#bg)"/>
+    <rect width="1200" height="452" fill="url(#grid)"/>
+
+    <text class="mono" x="48" y="58" font-size="11.5" letter-spacing="4" fill="#E0608A">[ MAPA DE CAPACIDADES ]</text>
+    <text class="sans" x="48" y="88" font-size="15" fill="#B08A98">Herramientas que ya usé en proyectos, no una lista de deseos.</text>
+    <line x1="48" y1="106" x2="1152" y2="106" stroke="#4A1024"/>
+
+    <g transform="translate(48 126)">
+      <rect width="262" height="282" rx="16" fill="#180509" stroke="#4A1024"/>
+      <rect x="0" y="0" width="262" height="3" rx="1.5" fill="#E0608A"/>
+      <g transform="translate(20 20)" fill="none" stroke="#E0608A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 5 L2 12 L8 19 M20 5 L26 12 L20 19 M16 3 L12 21"/>
+      </g>
+      <text class="sans" x="56" y="37" font-size="15" font-weight="700" fill="#FFF3F6">Backend</text>
+      <text class="mono" x="20" y="66" font-size="9.5" letter-spacing="1.6" fill="#7A5060">SERVICIOS Y LÓGICA</text>
+
+      <g transform="translate(20 92)">
+        <circle cx="3" cy="-4" r="2.6" fill="#E0608A"/><text class="sans" x="14" y="0" font-size="13" fill="#DBAEBE">Java 21</text>
+        <circle cx="3" cy="26" r="2.6" fill="#E0608A"/><text class="sans" x="14" y="30" font-size="13" fill="#DBAEBE">Node.js + Express</text>
+        <circle cx="3" cy="56" r="2.6" fill="#E0608A"/><text class="sans" x="14" y="60" font-size="13" fill="#DBAEBE">Python</text>
+        <circle cx="3" cy="86" r="2.6" fill="#E0608A"/><text class="sans" x="14" y="90" font-size="13" fill="#DBAEBE">FastAPI</text>
+        <circle cx="3" cy="116" r="2.6" fill="#E0608A"/><text class="sans" x="14" y="120" font-size="13" fill="#DBAEBE">Django</text>
+        <circle cx="3" cy="146" r="2.6" fill="#E0608A"/><text class="sans" x="14" y="150" font-size="13" fill="#DBAEBE">APIs REST</text>
+      </g>
+      <text class="mono" x="20" y="266" font-size="9.5" fill="#7A5060">contratos · validación · errores</text>
+    </g>
+
+    <g transform="translate(326 126)">
+      <rect width="262" height="282" rx="16" fill="#180509" stroke="#4A1024"/>
+      <rect x="0" y="0" width="262" height="3" rx="1.5" fill="#F6C6D2"/>
+      <g transform="translate(20 20)" fill="none" stroke="#F6C6D2" stroke-width="1.8">
+        <ellipse cx="14" cy="7" rx="11" ry="4"/>
+        <path d="M3 7 V21 C3 23.2 7.9 25 14 25 C20.1 25 25 23.2 25 21 V7"/>
+        <path d="M3 14 C3 16.2 7.9 18 14 18 C20.1 18 25 16.2 25 14"/>
+      </g>
+      <text class="sans" x="56" y="37" font-size="15" font-weight="700" fill="#FFF3F6">Datos</text>
+      <text class="mono" x="20" y="66" font-size="9.5" letter-spacing="1.6" fill="#7A5060">MODELO Y PERSISTENCIA</text>
+
+      <g transform="translate(20 92)">
+        <circle cx="3" cy="-4" r="2.6" fill="#F6C6D2"/><text class="sans" x="14" y="0" font-size="13" fill="#DBAEBE">PostgreSQL</text>
+        <circle cx="3" cy="26" r="2.6" fill="#F6C6D2"/><text class="sans" x="14" y="30" font-size="13" fill="#DBAEBE">PostGIS</text>
+        <circle cx="3" cy="56" r="2.6" fill="#F6C6D2"/><text class="sans" x="14" y="60" font-size="13" fill="#DBAEBE">MySQL</text>
+        <circle cx="3" cy="86" r="2.6" fill="#F6C6D2"/><text class="sans" x="14" y="90" font-size="13" fill="#DBAEBE">SQLite</text>
+        <circle cx="3" cy="116" r="2.6" fill="#F6C6D2"/><text class="sans" x="14" y="120" font-size="13" fill="#DBAEBE">MongoDB</text>
+        <circle cx="3" cy="146" r="2.6" fill="#F6C6D2"/><text class="sans" x="14" y="150" font-size="13" fill="#DBAEBE">Redis</text>
+      </g>
+      <text class="mono" x="20" y="266" font-size="9.5" fill="#7A5060">esquema · consultas · integridad</text>
+    </g>
+
+    <g transform="translate(604 126)">
+      <rect width="262" height="282" rx="16" fill="#180509" stroke="#4A1024"/>
+      <rect x="0" y="0" width="262" height="3" rx="1.5" fill="#B01E45"/>
+      <g transform="translate(20 20)" fill="none" stroke="#D93363" stroke-width="1.8">
+        <rect x="2" y="4" width="24" height="20" rx="3"/>
+        <line x1="2" y1="10" x2="26" y2="10"/>
+        <circle cx="6.5" cy="7" r="0.9" fill="#D93363"/>
+        <circle cx="9.5" cy="7" r="0.9" fill="#D93363"/>
+      </g>
+      <text class="sans" x="56" y="37" font-size="15" font-weight="700" fill="#FFF3F6">Frontend</text>
+      <text class="mono" x="20" y="66" font-size="9.5" letter-spacing="1.6" fill="#7A5060">INTERFAZ Y EXPERIENCIA</text>
+
+      <g transform="translate(20 92)">
+        <circle cx="3" cy="-4" r="2.6" fill="#D93363"/><text class="sans" x="14" y="0" font-size="13" fill="#DBAEBE">React</text>
+        <circle cx="3" cy="26" r="2.6" fill="#D93363"/><text class="sans" x="14" y="30" font-size="13" fill="#DBAEBE">Vite</text>
+        <circle cx="3" cy="56" r="2.6" fill="#D93363"/><text class="sans" x="14" y="60" font-size="13" fill="#DBAEBE">Tailwind CSS</text>
+        <circle cx="3" cy="86" r="2.6" fill="#D93363"/><text class="sans" x="14" y="90" font-size="13" fill="#DBAEBE">JavaScript ES6+</text>
+        <circle cx="3" cy="116" r="2.6" fill="#D93363"/><text class="sans" x="14" y="120" font-size="13" fill="#DBAEBE">HTML5</text>
+        <circle cx="3" cy="146" r="2.6" fill="#D93363"/><text class="sans" x="14" y="150" font-size="13" fill="#DBAEBE">CSS3</text>
+      </g>
+      <text class="mono" x="20" y="266" font-size="9.5" fill="#7A5060">componentes · estado · accesibilidad</text>
+    </g>
+
+    <g transform="translate(882 126)">
+      <rect width="262" height="282" rx="16" fill="#180509" stroke="#4A1024"/>
+      <rect x="0" y="0" width="262" height="3" rx="1.5" fill="#8E1338"/>
+      <g transform="translate(20 20)" fill="none" stroke="#B08A98" stroke-width="1.8" stroke-linejoin="round">
+        <path d="M3 8 L14 3 L25 8 V19 L14 24 L3 19 Z"/>
+        <path d="M3 8 L14 13 L25 8"/>
+        <line x1="14" y1="13" x2="14" y2="24"/>
+      </g>
+      <text class="sans" x="56" y="37" font-size="15" font-weight="700" fill="#FFF3F6">Entrega</text>
+      <text class="mono" x="20" y="66" font-size="9.5" letter-spacing="1.6" fill="#7A5060">ENTORNO Y OPERACIÓN</text>
+
+      <g transform="translate(20 92)">
+        <circle cx="3" cy="-4" r="2.6" fill="#B08A98"/><text class="sans" x="14" y="0" font-size="13" fill="#DBAEBE">Docker</text>
+        <circle cx="3" cy="26" r="2.6" fill="#B08A98"/><text class="sans" x="14" y="30" font-size="13" fill="#DBAEBE">GitHub Actions</text>
+        <circle cx="3" cy="56" r="2.6" fill="#B08A98"/><text class="sans" x="14" y="60" font-size="13" fill="#DBAEBE">Git</text>
+        <circle cx="3" cy="86" r="2.6" fill="#B08A98"/><text class="sans" x="14" y="90" font-size="13" fill="#DBAEBE">Linux</text>
+        <circle cx="3" cy="116" r="2.6" fill="#B08A98"/><text class="sans" x="14" y="120" font-size="13" fill="#DBAEBE">Nginx</text>
+        <circle cx="3" cy="146" r="2.6" fill="#B08A98"/><text class="sans" x="14" y="150" font-size="13" fill="#DBAEBE">Bash</text>
+      </g>
+      <text class="mono" x="20" y="266" font-size="9.5" fill="#7A5060">contenedores · CI · despliegue</text>
+    </g>
+
+    <line x1="48" y1="428" x2="1152" y2="428" stroke="#4A1024"/>
+    <text class="mono" x="48" y="446" font-size="10" fill="#7A5060">● aplicado en proyectos del perfil</text>
+    <text class="mono" x="1152" y="446" text-anchor="end" font-size="10" fill="#7A5060">DAVID VELEZ · 2026</text>
+    <rect x="300" y="422" width="600" height="1.5" fill="url(#edge)" opacity="0.6"/>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="450.5" rx="23.25" fill="none" stroke="#7E1030" stroke-opacity="0.6" stroke-width="1.5"/>
+</svg>
