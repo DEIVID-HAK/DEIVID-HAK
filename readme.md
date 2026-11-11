@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner-hero.svg" width="100%" alt="David Velez — ADSO Technologist and Full Stack Developer"/>
+  <img src="assets/banner-hero.svg?v=4" width="100%" alt="David Velez — ADSO Technologist and Full Stack Developer"/>
 </div>
 
 <img src="assets/atoms.svg" width="100%" alt=""/>
