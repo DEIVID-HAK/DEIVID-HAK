@@ -10,6 +10,18 @@ const rand = (x, y) => {
 
 const addFood = (file, color, ratio) => {
   let svg = readFileSync(file, 'utf8');
+
+  // fondo oscuro para que la serpiente se lea igual en tema claro y oscuro
+  const vb = svg.match(/viewBox="([-\d.\s]+)"/);
+  if (vb) {
+    const [vx, vy, vw, vh] = vb[1].trim().split(/\s+/).map(Number);
+    const bg = `<rect x="${vx}" y="${vy}" width="${vw}" height="${vh}" rx="12" fill="#0A0E14"/>` +
+      `<rect x="${vx + 0.75}" y="${vy + 0.75}" width="${vw - 1.5}" height="${vh - 1.5}" rx="11.5" fill="none" stroke="#27313D" stroke-opacity="0.7"/>` +
+      `<rect x="${vx + 4}" y="${vy + 4}" width="${vw - 8}" height="${vh - 8}" rx="10" fill="none" stroke="#E3C98F" stroke-opacity="0.14"/>`;
+    const endTag = svg.indexOf('>', svg.indexOf('<svg')) + 1;
+    svg = svg.slice(0, endTag) + bg + svg.slice(endTag);
+  }
+
   const re = /<rect class="c" x="(\d+)" y="(\d+)" rx="2" ry="2"\/>/g;
   let out = '';
   let last = 0;
