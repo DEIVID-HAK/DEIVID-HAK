@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/hero.svg?v=1" width="100%" alt="David Vélez — desarrollador full stack. Backend, APIs y datos. Medellín, Colombia." />
+  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/profile.svg?v=1" width="100%" alt="David Vélez — desarrollador full stack. Backend, APIs y datos. Medellín, Colombia." />
 
   <br>
 
@@ -22,14 +22,6 @@
 
 </div>
 
-<br>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/atom-core.svg?v=1" width="150" alt="Átomo animado con electrones de oro y cian orbitando el núcleo" />
-</p>
-
-<br>
-
 ---
 
 <a id="perfil"></a>
@@ -37,10 +29,6 @@
 ### `01` · Perfil
 
 Desarrollador **full stack con foco en backend**. Mi trabajo empieza en el modelo de datos y termina en una interfaz que consume la API sin duplicar reglas de negocio: contrato primero, validación en el borde y un entorno que se levanta con un comando.
-
-<br>
-
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/architecture.svg?v=1" width="100%" alt="Arquitectura animada: frontend en un hexágono, backend en otro hexágono y base de datos, conectados por pulsos de petición y respuesta." />
 
 Estudio **Análisis y Desarrollo de Software (ADSO) en el SENA**, en Medellín, y curso el sexto semestre. He entregado cuatro sistemas completos —un e-commerce textil con pagos y roles, una plataforma geoespacial con PostGIS y WebSockets, un laboratorio de DevOps jugable y una agenda con reglas deterministas— y en todos repetí el mismo recorrido: entender el problema, modelar los datos, construir la API, conectar la interfaz y dejar rastro documentado.
 
@@ -50,7 +38,7 @@ Busco mi **primera oportunidad profesional** —prácticas o rol junior— en un
 
 <br>
 
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/impact.svg?v=1" width="100%" alt="4 sistemas entregados, 46 pruebas automatizadas, 702.540 registros geoespaciales y 25 tablas modeladas." />
+<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/figures.svg?v=1" width="100%" alt="4 sistemas entregados, 46 pruebas automatizadas, 702.540 registros geoespaciales y 25 tablas modeladas." />
 
 <br>
 
@@ -67,7 +55,7 @@ Busco mi **primera oportunidad profesional** —prácticas o rol junior— en un
 
 <br>
 
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/delivery.svg?v=1" width="100%" alt="Proceso de entrega: entender, modelar, construir, verificar y desplegar." />
+<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/process.svg?v=1" width="100%" alt="Proceso de entrega: entender, modelar, construir, verificar y desplegar." />
 
 ---
 
@@ -80,10 +68,10 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 <div align="center">
 
   <p>
-    <a href="https://github.com/DAVIDVLEZ-DEVELOPER/PROYECTO-SENA-TIENDA-TEXTIL"><img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/project-textil.svg?v=1" width="49%" alt="D&amp;D Textil — e-commerce textil con inventario y pagos" /></a>&nbsp;<a href="https://github.com/DAVIDVLEZ-DEVELOPER/PPTMaps"><img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/project-pptmaps.svg?v=1" width="49%" alt="PPTMaps — inteligencia geoespacial para Medellín" /></a>
+    <a href="https://github.com/DAVIDVLEZ-DEVELOPER/PROYECTO-SENA-TIENDA-TEXTIL"><img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/projects-textil.svg?v=1" width="49%" alt="D&amp;D Textil — e-commerce textil con inventario y pagos" /></a>&nbsp;<a href="https://github.com/DAVIDVLEZ-DEVELOPER/PPTMaps"><img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/projects-pptmaps.svg?v=1" width="49%" alt="PPTMaps — inteligencia geoespacial para Medellín" /></a>
   </p>
   <p>
-    <a href="https://github.com/DAVIDVLEZ-DEVELOPER/architect-td"><img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/project-architect.svg?v=1" width="49%" alt="Architect TD — juego y laboratorio de arquitectura y DevOps" /></a>&nbsp;<a href="https://github.com/DAVIDVLEZ-DEVELOPER/agendalili"><img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/project-agenda.svg?v=1" width="49%" alt="Agenda SDD — tareas y compromisos con reglas deterministas" /></a>
+    <a href="https://github.com/DAVIDVLEZ-DEVELOPER/architect-td"><img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/projects-architect.svg?v=1" width="49%" alt="Architect TD — juego y laboratorio de arquitectura y DevOps" /></a>&nbsp;<a href="https://github.com/DAVIDVLEZ-DEVELOPER/agendalili"><img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/projects-agenda.svg?v=1" width="49%" alt="Agenda SDD — tareas y compromisos con reglas deterministas" /></a>
   </p>
 
 </div>
@@ -107,7 +95,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 ### `03` · Stack
 
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/stack.svg?v=1" width="100%" alt="Mapa de capacidades: backend, datos, frontend y entrega." />
+<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/capabilities.svg?v=1" width="100%" alt="Mapa de capacidades: backend, datos, frontend y entrega." />
 
 <br>
 
@@ -134,7 +122,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 ### `04` · Trayectoria
 
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/journey.svg?v=1" width="100%" alt="Trayectoria: fundamentos en el SENA, productos reales, calidad y entrega, y siguiente paso." />
+<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/journey-map.svg?v=1" width="100%" alt="Trayectoria: fundamentos en el SENA, productos reales, calidad y entrega, y siguiente paso." />
 
 <br>
 
@@ -174,7 +162,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 ### `06` · Contacto
 
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/contact.svg?v=1" width="100%" alt="Contacto: correo, GitHub, YouTube, ubicación y disponibilidad." />
+<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/contact-panel.svg?v=1" width="100%" alt="Contacto: correo, GitHub, YouTube, ubicación y disponibilidad." />
 
 <br>
 
@@ -188,7 +176,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 <br>
 
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/footer.svg?v=1" width="100%" alt="David Vélez — Medellín, Colombia. Disponible para prácticas y roles junior." />
+<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/footer-metal.svg?v=1" width="100%" alt="David Vélez — Medellín, Colombia. Disponible para prácticas y roles junior." />
 
 <details>
   <summary><b>English summary</b></summary>

@@ -1,0 +1,486 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="David Vélez — desarrollador full stack. Backend, APIs y datos. Medellín, Colombia.">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#05070B"/>
+      <stop offset="0.5" stop-color="#0A0E14"/>
+      <stop offset="1" stop-color="#121821"/>
+    </linearGradient>
+
+    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="0.12">
+      <stop offset="0" stop-color="#6C7888"/>
+      <stop offset="0.14" stop-color="#DCE5EF"/>
+      <stop offset="0.3" stop-color="#FFFFFF"/>
+      <stop offset="0.44" stop-color="#AFBCCB"/>
+      <stop offset="0.58" stop-color="#FFFFFF"/>
+      <stop offset="0.72" stop-color="#C6D1DE"/>
+      <stop offset="0.86" stop-color="#8D99A9"/>
+      <stop offset="1" stop-color="#E4EBF4"/>
+    </linearGradient>
+
+    <linearGradient id="chromeSoft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B98A8"/>
+      <stop offset="0.5" stop-color="#EDF3FA"/>
+      <stop offset="1" stop-color="#9AA6B6"/>
+    </linearGradient>
+
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#47535F"/>
+      <stop offset="0.22" stop-color="#C8D3E0"/>
+      <stop offset="0.45" stop-color="#39434F"/>
+      <stop offset="0.68" stop-color="#E9EFF7"/>
+      <stop offset="0.88" stop-color="#4A5663"/>
+      <stop offset="1" stop-color="#8A96A6"/>
+    </linearGradient>
+
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="0.6" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="goldTrail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E3C98F" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#C9A968" stop-opacity="0.7"/>
+      <stop offset="0.5" stop-color="#FFF3D6"/>
+      <stop offset="0.8" stop-color="#E3C98F" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#E3C98F" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="goldEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8A6B2F"/>
+      <stop offset="0.5" stop-color="#E3C98F"/>
+      <stop offset="1" stop-color="#8A6B2F"/>
+    </linearGradient>
+
+    <linearGradient id="goldRail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E3C98F" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#E3C98F"/>
+      <stop offset="1" stop-color="#E3C98F" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="cyanRail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#79D2FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#79D2FF"/>
+      <stop offset="1" stop-color="#79D2FF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.055"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.012"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.028"/>
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#79D2FF" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#79D2FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowGold" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E3C98F" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#E3C98F" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="screw" cx="0.35" cy="0.3" r="0.7">
+      <stop offset="0" stop-color="#F4F8FD"/>
+      <stop offset="0.55" stop-color="#8D99A9"/>
+      <stop offset="1" stop-color="#2A3340"/>
+    </radialGradient>
+
+    <pattern id="brush" width="7" height="7" patternUnits="userSpaceOnUse">
+      <path d="M0 1.5H7" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="0.7"/>
+      <path d="M0 4.5H7" stroke="#FFFFFF" stroke-opacity="0.018" stroke-width="0.7"/>
+    </pattern>
+
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#8FA4BC" stroke-opacity="0.07"/>
+    </pattern>
+
+    <style>
+      .sans { font-family: 'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'Cascadia Code', 'JetBrains Mono', 'Consolas', 'Courier New', monospace; }
+      .pulse { animation: pulse 3.2s ease-in-out infinite; }
+      .pulse-slow { animation: pulse 5s ease-in-out infinite; }
+      .flow { stroke-dasharray: 5 11; animation: flow 3s linear infinite; }
+      .blink { animation: blink 1.5s steps(1) infinite; }
+      .sweep { animation: sweep 9s cubic-bezier(.45,0,.25,1) infinite; }
+      .sweep-slow { animation: sweep 12s cubic-bezier(.45,0,.25,1) infinite; }
+      .gold-run { animation-name: goldrun; animation-timing-function: linear; animation-iteration-count: infinite; animation-duration: 6s; }
+      .gold-halo { animation: goldpulse 3.4s ease-in-out infinite; }
+      .gold-breathe { animation: goldbreathe 3s ease-in-out infinite; }
+      .s1 { animation-delay: .5s; } .s2 { animation-delay: 1.1s; } .s3 { animation-delay: 1.7s; }
+      .s4 { animation-delay: 2.3s; } .s5 { animation-delay: 2.9s; }
+      @keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+      @keyframes flow { to { stroke-dashoffset: -48; } }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes sweep { 0%, 62% { transform: translateX(-520px); } 92%, 100% { transform: translateX(1320px); } }
+      @keyframes goldrun { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -100; } }
+      @keyframes goldpulse { 0%, 100% { opacity: .12; } 50% { opacity: .55; } }
+      @keyframes goldbreathe { 0%, 100% { opacity: .22; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    </style>
+    <clipPath id="clip"><rect width="1200" height="420" rx="20"/></clipPath>
+    <clipPath id="atomClip"><circle cx="200" cy="200" r="176"/></clipPath>
+    <radialGradient id="elGold" cx="0.35" cy="0.3" r="0.75">
+      <stop offset="0" stop-color="#FFF8E8"/>
+      <stop offset="0.45" stop-color="#E3C98F"/>
+      <stop offset="1" stop-color="#8A6B2F"/>
+    </radialGradient>
+    <radialGradient id="elCyan" cx="0.35" cy="0.3" r="0.75">
+      <stop offset="0" stop-color="#EAF9FF"/>
+      <stop offset="0.45" stop-color="#79D2FF"/>
+      <stop offset="1" stop-color="#2E6E8E"/>
+    </radialGradient>
+    <radialGradient id="elSilver" cx="0.35" cy="0.3" r="0.75">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.45" stop-color="#C3CEDA"/>
+      <stop offset="1" stop-color="#6C7888"/>
+    </radialGradient>
+    <radialGradient id="atomGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E3C98F" stop-opacity="0.30"/>
+      <stop offset="0.45" stop-color="#79D2FF" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#79D2FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="orbitStroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#79D2FF" stop-opacity="0.05"/>
+      <stop offset="0.35" stop-color="#C3CEDA" stop-opacity="0.55"/>
+      <stop offset="0.6" stop-color="#E3C98F" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#79D2FF" stop-opacity="0.05"/>
+    </linearGradient>
+  
+  </defs>
+
+  <g clip-path="url(#clip)">
+    
+  <rect width="1200" height="420" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="20" fill="url(#brush)"/>
+  <rect width="1200" height="420" rx="20" fill="url(#grid)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="418.5" rx="19.25"
+        fill="none" stroke="url(#edge)" stroke-opacity="0.62" stroke-width="1.5"/>
+  <rect x="5" y="5" width="1190" height="410" rx="16"
+        fill="none" stroke="#FFFFFF" stroke-opacity="0.05"/>
+  
+  <rect x="3.25" y="3.25" width="1193.5" height="413.5" rx="16.75" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.55" stroke-width="1.1"/>
+  <rect class="gold-breathe" x="3.25" y="3.25" width="1193.5" height="413.5" rx="16.75" fill="none" stroke="#E3C98F" stroke-width="1.6"/>
+  <rect class="gold-halo" x="3.25" y="3.25" width="1193.5" height="413.5" rx="16.75" fill="none" stroke="#E3C98F" stroke-width="10" stroke-opacity="0.3"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="413.5" rx="16.75" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="11.0" stroke-opacity="0.16" stroke-dasharray="30 70" style="animation-duration:9s"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="413.5" rx="16.75" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="3.8" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:9s"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="413.5" rx="16.75" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="2.3" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:9s;animation-delay:-3.60s"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="413.5" rx="16.75" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:9s;animation-delay:-6.30s"/>
+  <circle cx="18" cy="18" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse"/>
+  <circle cx="1182" cy="18" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse s2"/>
+  <circle cx="18" cy="402" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse s3"/>
+  <circle cx="1182" cy="402" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse s4"/>
+  <circle cx="18" cy="18" r="4.2" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="1182" cy="18" r="4.2" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="18" cy="402" r="4.2" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="1182" cy="402" r="4.2" fill="url(#screw)" opacity="0.8"/>
+    <ellipse cx="90" cy="60" rx="340" ry="200" fill="url(#glowCyan)" opacity="0.55"/>
+    <ellipse cx="1080" cy="380" rx="320" ry="200" fill="url(#glowGold)" opacity="0.5"/>
+
+    <!-- top bar -->
+    <rect width="1200" height="46" fill="#070A0F" opacity="0.92"/>
+    <circle cx="30" cy="23" r="5" fill="#F2F5F9" opacity="0.85"/>
+    <circle cx="48" cy="23" r="5" fill="#9EAABA" opacity="0.8"/>
+    <circle cx="66" cy="23" r="5" fill="#4E5A69" opacity="0.9"/>
+    <text class="mono" x="92" y="28" font-size="11.5" fill="#6E7C8D">david@medellin:~/profile</text>
+    <text class="mono" x="1148" y="28" text-anchor="end" font-size="10.5" fill="#4B5666">chrome · es-CO · UTC-5</text>
+    <line x1="0" y1="46" x2="1200" y2="46" stroke="url(#edge)" stroke-opacity="0.5"/>
+
+    <!-- left: identity + atom -->
+    <text class="mono" x="54" y="102" font-size="11.5" letter-spacing="4.2" fill="#79D2FF">[ FULL STACK DEVELOPER · BACKEND &amp; DATA ]</text>
+    <text class="sans" x="50" y="184" font-size="66" font-weight="800" letter-spacing="-1.8" fill="url(#chrome)">DAVID VÉLEZ</text>
+
+    <g transform="translate(612 138) scale(0.33) translate(-200 -200)">
+      
+  <g clip-path="url(#atomClip)">
+    <circle cx="200" cy="200" r="176" fill="url(#bg)"/>
+    <circle cx="200" cy="200" r="176" fill="url(#brush)"/>
+    <circle cx="200" cy="200" r="176" fill="url(#grid)"/>
+    <circle cx="200" cy="200" r="176" fill="url(#atomGlow)" opacity="0.9"/>
+
+    <circle cx="200" cy="200" r="150" fill="none" stroke="url(#goldEdge)" stroke-width="1" stroke-dasharray="1.5 10" opacity="0.42">
+      <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="-360 200 200" dur="70s" repeatCount="indefinite"/>
+    </circle>
+
+    
+    <g transform="rotate(-24 200 200)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="30s" repeatCount="indefinite"/>
+        <ellipse cx="200" cy="200" rx="146" ry="50" fill="none" stroke="url(#orbitStroke)" stroke-width="1.7" opacity="0.9"/>
+        
+    <g>
+      <animateMotion dur="6.5s" begin="0s" repeatCount="indefinite" path="M 54 200 a 146 50 0 1 0 292 0 a 146 50 0 1 0 -292 0" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+      <circle r="13.5" fill="url(#glowGold)" opacity="0.4"/>
+      <circle r="5.2" fill="url(#elGold)"/>
+      <circle cx="-1.6" cy="-1.8" r="1.6" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+    <g>
+      <animateMotion dur="6.5s" begin="-3.2s" repeatCount="indefinite" path="M 54 200 a 146 50 0 1 0 292 0 a 146 50 0 1 0 -292 0" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+      <circle r="11.4" fill="url(#glowCyan)" opacity="0.4"/>
+      <circle r="4.4" fill="url(#elCyan)"/>
+      <circle cx="-1.3" cy="-1.5" r="1.3" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+      </g>
+    </g>
+    <g transform="rotate(44 200 200)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="-360 200 200" dur="38s" repeatCount="indefinite"/>
+        <ellipse cx="200" cy="200" rx="146" ry="50" fill="none" stroke="url(#orbitStroke)" stroke-width="1.7" opacity="0.9"/>
+        
+    <g>
+      <animateMotion dur="8.5s" begin="-1.6s" repeatCount="indefinite" path="M 54 200 a 146 50 0 1 0 292 0 a 146 50 0 1 0 -292 0" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+      <circle r="12.5" fill="url(#glowCyan)" opacity="0.4"/>
+      <circle r="4.8" fill="url(#elSilver)"/>
+      <circle cx="-1.4" cy="-1.7" r="1.4" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+    <g>
+      <animateMotion dur="8.5s" begin="-5.6s" repeatCount="indefinite" path="M 54 200 a 146 50 0 1 0 292 0 a 146 50 0 1 0 -292 0" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+      <circle r="10.4" fill="url(#glowGold)" opacity="0.4"/>
+      <circle r="4" fill="url(#elGold)"/>
+      <circle cx="-1.2" cy="-1.4" r="1.2" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+      </g>
+    </g>
+    <g transform="rotate(100 200 200)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="24s" repeatCount="indefinite"/>
+        <ellipse cx="200" cy="200" rx="146" ry="50" fill="none" stroke="url(#orbitStroke)" stroke-width="1.7" opacity="0.9"/>
+        
+    <g>
+      <animateMotion dur="5.5s" begin="-2.4s" repeatCount="indefinite" path="M 54 200 a 146 50 0 1 0 292 0 a 146 50 0 1 0 -292 0" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+      <circle r="13.0" fill="url(#glowCyan)" opacity="0.4"/>
+      <circle r="5" fill="url(#elCyan)"/>
+      <circle cx="-1.5" cy="-1.8" r="1.5" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+    <g>
+      <animateMotion dur="5.5s" begin="-4.6s" repeatCount="indefinite" path="M 54 200 a 146 50 0 1 0 292 0 a 146 50 0 1 0 -292 0" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+      <circle r="10.9" fill="url(#glowCyan)" opacity="0.4"/>
+      <circle r="4.2" fill="url(#elSilver)"/>
+      <circle cx="-1.3" cy="-1.5" r="1.3" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+      </g>
+    </g>
+    
+    <g>
+      <animateMotion dur="19s" begin="0s" repeatCount="indefinite" path="M 82 200 a 118 118 0 1 1 236 0 a 118 118 0 1 1 -236 0"/>
+      <circle r="2.1" fill="url(#elGold)">
+        <animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.4s" begin="0s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g>
+      <animateMotion dur="27s" begin="-9s" repeatCount="indefinite" path="M 66 200 a 134 134 0 1 1 268 0 a 134 134 0 1 1 -268 0"/>
+      <circle r="1.7" fill="url(#elCyan)">
+        <animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.4s" begin="-9s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g>
+      <animateMotion dur="39s" begin="-18s" repeatCount="indefinite" path="M 98 200 a 102 102 0 1 1 204 0 a 102 102 0 1 1 -204 0"/>
+      <circle r="1.6" fill="url(#elSilver)">
+        <animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.4s" begin="-18s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <circle cx="200" cy="200" r="46" fill="url(#atomGlow)" opacity="0.75" class="pulse-slow"/>
+    <g>
+      <circle cx="200" cy="200" r="17" fill="url(#chrome)" stroke="#E3C98F" stroke-opacity="0.55" stroke-width="1"/>
+      <circle cx="200" cy="200" r="6.5" fill="#79D2FF" opacity="0.92" class="pulse"/>
+      <circle cx="195" cy="194" r="3" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+    <circle cx="200" cy="200" r="27" fill="none" stroke="url(#goldTrail)" stroke-width="1.4" pathLength="100"
+            stroke-dasharray="12 88" class="gold-run" style="animation-duration:9s"/>
+  </g>
+
+  <circle cx="200" cy="200" r="176" fill="none" stroke="url(#edge)" stroke-width="2" stroke-opacity="0.7"/>
+  <circle cx="200" cy="200" r="171" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.05"/>
+  <circle class="gold-halo" cx="200" cy="200" r="176" fill="none" stroke="#E3C98F" stroke-width="10" stroke-opacity="0.26"/>
+  <circle cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="url(#goldEdge)" stroke-opacity="0.75" stroke-width="2.4"/>
+  <circle class="gold-run" cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="url(#goldTrail)" stroke-width="7" stroke-opacity="0.25" stroke-dasharray="14 86" style="animation-duration:10s"/>
+  <circle class="gold-run" cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="url(#goldTrail)" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="14 86" style="animation-duration:10s"/>
+  <circle class="gold-run" cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="#FFF3D6" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="1.6 98.4" style="animation-duration:10s;animation-delay:-4s"/>
+  
+    </g>
+
+    <text class="sans" x="54" y="222" font-size="18.5" fill="#A9B6C6">Modelo los datos, construyo la API y entrego la interfaz.</text>
+    <text class="mono" x="54" y="248" font-size="12.5" fill="#6E7C8D">ADSO · SENA Medellín · 6.º semestre · disponible para prácticas o rol junior.</text>
+
+    <g transform="translate(54 276)">
+      <g transform="translate(0 0)">
+      <rect width="148" height="24" rx="12" fill="#0D1A16" stroke="#2C5A45" stroke-opacity="0.9"/>
+      <text class="mono" x="74" y="15.7" text-anchor="middle" font-size="10.5" fill="#A9B6C6"></text>
+    </g>
+      <circle cx="18" cy="12" r="4" fill="#79E2A6" class="pulse"/>
+      <text class="mono" x="30" y="16" font-size="10.5" fill="#CFEEDF" letter-spacing="0.6">OPEN TO WORK</text>
+      <g transform="translate(160 0)">
+      <rect width="186" height="24" rx="12" fill="#0E141C" stroke="#4A3E26" stroke-opacity="0.9"/>
+      <text class="mono" x="93" y="15.7" text-anchor="middle" font-size="10.5" fill="#C3CEDA">PRÁCTICAS · JUNIOR</text>
+    </g>
+      <g transform="translate(358 0)">
+      <rect width="156" height="24" rx="12" fill="#0E141C" stroke="#4A3E26" stroke-opacity="0.9"/>
+      <text class="mono" x="78" y="15.7" text-anchor="middle" font-size="10.5" fill="#C3CEDA">MEDELLÍN · CO</text>
+    </g>
+    </g>
+
+    <text class="mono" x="54" y="356" font-size="12.5" fill="#4B5666">// software que se puede explicar, probar y desplegar.</text>
+    <rect class="blink" x="468" y="345" width="7" height="12" fill="#79D2FF" opacity="0.85"/>
+
+    <!-- right: frontend / backend / datos -->
+    <g transform="translate(700 56)">
+      
+  <g>
+    <rect width="452" height="306" rx="16" fill="url(#panel)" stroke="url(#edge)" stroke-opacity="0.55"/>
+    <rect x="0.5" y="0.5" width="451" height="305" rx="15.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    
+  <rect x="1.5" y="1.5" width="449" height="303" rx="14.5" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.55" stroke-width="1.1"/>
+  <rect class="gold-breathe" x="1.5" y="1.5" width="449" height="303" rx="14.5" fill="none" stroke="#E3C98F" stroke-width="1.6"/>
+  <rect class="gold-halo" x="1.5" y="1.5" width="449" height="303" rx="14.5" fill="none" stroke="#E3C98F" stroke-width="10" stroke-opacity="0.3"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="449" height="303" rx="14.5" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="11.0" stroke-opacity="0.16" stroke-dasharray="30 70" style="animation-duration:7s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="449" height="303" rx="14.5" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="3.8" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:7s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="449" height="303" rx="14.5" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="2.3" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:7s;animation-delay:-2.80s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="449" height="303" rx="14.5" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:7s;animation-delay:-4.90s"/>
+    <rect width="452" height="2.5" rx="1.2" fill="url(#goldRail)" opacity="0.85"/>
+
+    <text class="mono" x="24" y="28" font-size="9.5" letter-spacing="1.9" fill="#E3C98F">ARQUITECTURA · FLUJO DE UNA PETICIÓN</text>
+
+    <circle cx="74" cy="112" r="72" fill="url(#glowCyan)" opacity="0.4"/>
+    <circle cx="226" cy="112" r="72" fill="url(#glowCyan)" opacity="0.28"/>
+    <circle cx="378" cy="112" r="72" fill="url(#glowGold)" opacity="0.45"/>
+
+    
+    <line x1="116.37306695894642" y1="112" x2="183.62693304105358" y2="112" stroke="#27313D" stroke-width="5" stroke-linecap="round" stroke-opacity="0.6"/>
+    <line x1="116.37306695894642" y1="112" x2="183.62693304105358" y2="112" stroke="url(#cyanRail)" stroke-width="1.4"/>
+    <line class="flow" x1="116.37306695894642" y1="112" x2="183.62693304105358" y2="112" stroke="#79D2FF" stroke-width="1.2" stroke-opacity="0.6"/>
+    <text class="mono" x="150" y="100" text-anchor="middle" font-size="7.5" letter-spacing="0.8" fill="#79D2FF" opacity="0.9">HTTP / JSON</text>
+    <circle cx="116.37306695894642" cy="112" r="2.4" fill="#79D2FF" opacity="0.85"/>
+    <circle cx="183.62693304105358" cy="112" r="2.4" fill="#79D2FF" opacity="0.85"/>
+    
+    <line x1="268.3730669589464" y1="112" x2="335.6269330410536" y2="112" stroke="#27313D" stroke-width="5" stroke-linecap="round" stroke-opacity="0.6"/>
+    <line x1="268.3730669589464" y1="112" x2="335.6269330410536" y2="112" stroke="url(#goldRail)" stroke-width="1.4"/>
+    <line class="flow" x1="268.3730669589464" y1="112" x2="335.6269330410536" y2="112" stroke="#E3C98F" stroke-width="1.2" stroke-opacity="0.6"/>
+    <text class="mono" x="302" y="100" text-anchor="middle" font-size="7.5" letter-spacing="0.8" fill="#E3C98F" opacity="0.9">SQL</text>
+    <circle cx="268.3730669589464" cy="112" r="2.4" fill="#E3C98F" opacity="0.85"/>
+    <circle cx="335.6269330410536" cy="112" r="2.4" fill="#E3C98F" opacity="0.85"/>
+
+    
+    <path d="M 74.0 70.0 L 110.4 91.0 L 110.4 133.0 L 74.0 154.0 L 37.6 133.0 L 37.6 91.0 Z" fill="url(#panel)" stroke="url(#edge)" stroke-opacity="0.65" stroke-width="1.3"/>
+    
+  <path d="M 74.0 70.0 L 110.4 91.0 L 110.4 133.0 L 74.0 154.0 L 37.6 133.0 L 37.6 91.0 Z" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.5" stroke-width="1.2"/>
+  <path class="gold-halo" d="M 74.0 70.0 L 110.4 91.0 L 110.4 133.0 L 74.0 154.0 L 37.6 133.0 L 37.6 91.0 Z" fill="none" stroke="#E3C98F" stroke-width="9" stroke-opacity="0.3"/>
+  <path class="gold-run" d="M 74.0 70.0 L 110.4 91.0 L 110.4 133.0 L 74.0 154.0 L 37.6 133.0 L 37.6 91.0 Z" pathLength="100" fill="none" stroke="#F4DFAC" stroke-width="6" stroke-opacity="0.16" stroke-dasharray="30 70" style="animation-duration:5s"/>
+  <path class="gold-run" d="M 74.0 70.0 L 110.4 91.0 L 110.4 133.0 L 74.0 154.0 L 37.6 133.0 L 37.6 91.0 Z" pathLength="100" fill="none" stroke="#EBD29B" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:5s"/>
+  <path class="gold-run" d="M 74.0 70.0 L 110.4 91.0 L 110.4 133.0 L 74.0 154.0 L 37.6 133.0 L 37.6 91.0 Z" pathLength="100" fill="none" stroke="#FFF8E6" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:5s;animation-delay:-2.00s"/>
+  <path class="gold-run" d="M 74.0 70.0 L 110.4 91.0 L 110.4 133.0 L 74.0 154.0 L 37.6 133.0 L 37.6 91.0 Z" pathLength="100" fill="none" stroke="#FFFFFF" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:5s;animation-delay:-3.50s"/>
+    
+    <g transform="translate(54 97)">
+      <rect width="40" height="30" rx="4.5" fill="#0A1017" stroke="#79D2FF" stroke-opacity="0.5"/>
+      <path d="M0 9H40" stroke="#79D2FF" stroke-opacity="0.3"/>
+      <circle cx="6" cy="4.5" r="1.5" fill="#E3C98F"/>
+      <circle cx="11" cy="4.5" r="1.5" fill="#79D2FF" opacity="0.85"/>
+      <circle cx="16" cy="4.5" r="1.5" fill="#6E7C8D"/>
+      <rect x="6" y="14" width="18" height="2.6" rx="1.3" fill="#C3CEDA" opacity="0.55"/>
+      <rect x="6" y="19" width="26" height="2.6" rx="1.3" fill="#6E7C8D" opacity="0.55"/>
+      <rect x="6" y="24" width="13" height="2.6" rx="1.3" fill="#6E7C8D" opacity="0.4"/>
+      <circle cx="34" cy="4.5" r="1.6" fill="#79D2FF" class="pulse"/>
+    </g>
+    <text class="mono" x="74" y="184" text-anchor="middle" font-size="10.5" letter-spacing="2.2" fill="#79D2FF">FRONTEND</text>
+    <text class="mono" x="74" y="201" text-anchor="middle" font-size="8.5" fill="#6E7C8D">React · Vite</text>
+    
+    <path d="M 226.0 70.0 L 262.4 91.0 L 262.4 133.0 L 226.0 154.0 L 189.6 133.0 L 189.6 91.0 Z" fill="url(#panel)" stroke="url(#edge)" stroke-opacity="0.65" stroke-width="1.3"/>
+    
+  <path d="M 226.0 70.0 L 262.4 91.0 L 262.4 133.0 L 226.0 154.0 L 189.6 133.0 L 189.6 91.0 Z" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.5" stroke-width="1.2"/>
+  <path class="gold-halo" d="M 226.0 70.0 L 262.4 91.0 L 262.4 133.0 L 226.0 154.0 L 189.6 133.0 L 189.6 91.0 Z" fill="none" stroke="#E3C98F" stroke-width="9" stroke-opacity="0.3"/>
+  <path class="gold-run" d="M 226.0 70.0 L 262.4 91.0 L 262.4 133.0 L 226.0 154.0 L 189.6 133.0 L 189.6 91.0 Z" pathLength="100" fill="none" stroke="#F4DFAC" stroke-width="6" stroke-opacity="0.16" stroke-dasharray="30 70" style="animation-duration:6.5s"/>
+  <path class="gold-run" d="M 226.0 70.0 L 262.4 91.0 L 262.4 133.0 L 226.0 154.0 L 189.6 133.0 L 189.6 91.0 Z" pathLength="100" fill="none" stroke="#EBD29B" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:6.5s"/>
+  <path class="gold-run" d="M 226.0 70.0 L 262.4 91.0 L 262.4 133.0 L 226.0 154.0 L 189.6 133.0 L 189.6 91.0 Z" pathLength="100" fill="none" stroke="#FFF8E6" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:6.5s;animation-delay:-2.60s"/>
+  <path class="gold-run" d="M 226.0 70.0 L 262.4 91.0 L 262.4 133.0 L 226.0 154.0 L 189.6 133.0 L 189.6 91.0 Z" pathLength="100" fill="none" stroke="#FFFFFF" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:6.5s;animation-delay:-4.55s"/>
+    
+    <g transform="translate(207 93)">
+      
+      <g transform="translate(0 0)">
+        <rect width="38" height="12" rx="3" fill="#0A1017" stroke="#C3CEDA" stroke-opacity="0.32"/>
+        <circle cx="6.5" cy="6" r="1.8" fill="#79D2FF" class="pulse s1"/>
+        <rect x="12" y="4" width="14" height="1.9" rx="0.9" fill="#6E7C8D" opacity="0.7"/>
+        <rect x="12" y="7.2" width="9" height="1.6" rx="0.8" fill="#4B5666" opacity="0.6"/>
+        <rect x="30" y="3.5" width="2.4" height="5" rx="1.2" fill="#E3C98F" opacity="0.6"/>
+      </g>
+      <g transform="translate(0 14)">
+        <rect width="38" height="12" rx="3" fill="#0A1017" stroke="#C3CEDA" stroke-opacity="0.32"/>
+        <circle cx="6.5" cy="6" r="1.8" fill="#79E2A6" class="pulse s2"/>
+        <rect x="12" y="4" width="14" height="1.9" rx="0.9" fill="#6E7C8D" opacity="0.7"/>
+        <rect x="12" y="7.2" width="9" height="1.6" rx="0.8" fill="#4B5666" opacity="0.6"/>
+        <rect x="30" y="3.5" width="2.4" height="5" rx="1.2" fill="#E3C98F" opacity="0.6"/>
+      </g>
+      <g transform="translate(0 28)">
+        <rect width="38" height="12" rx="3" fill="#0A1017" stroke="#C3CEDA" stroke-opacity="0.32"/>
+        <circle cx="6.5" cy="6" r="1.8" fill="#79D2FF" class="pulse s3"/>
+        <rect x="12" y="4" width="14" height="1.9" rx="0.9" fill="#6E7C8D" opacity="0.7"/>
+        <rect x="12" y="7.2" width="9" height="1.6" rx="0.8" fill="#4B5666" opacity="0.6"/>
+        <rect x="30" y="3.5" width="2.4" height="5" rx="1.2" fill="#E3C98F" opacity="0.6"/>
+      </g>
+    </g>
+    <text class="mono" x="226" y="184" text-anchor="middle" font-size="10.5" letter-spacing="2.2" fill="#E9EFF7">BACKEND</text>
+    <text class="mono" x="226" y="201" text-anchor="middle" font-size="8.5" fill="#6E7C8D">Java · Node</text>
+    
+    <path d="M 358 92 v 40 a 20 6.5 0 0 0 40 0 v -40" fill="#0A1017" fill-opacity="0.8" stroke="none"/>
+    
+  <path d="M 358 92 v 40 a 20 6.5 0 0 0 40 0 v -40" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.5" stroke-width="1.2"/>
+  <path class="gold-halo" d="M 358 92 v 40 a 20 6.5 0 0 0 40 0 v -40" fill="none" stroke="#E3C98F" stroke-width="9" stroke-opacity="0.3"/>
+  <path class="gold-run" d="M 358 92 v 40 a 20 6.5 0 0 0 40 0 v -40" pathLength="100" fill="none" stroke="#F4DFAC" stroke-width="6" stroke-opacity="0.16" stroke-dasharray="30 70" style="animation-duration:6s"/>
+  <path class="gold-run" d="M 358 92 v 40 a 20 6.5 0 0 0 40 0 v -40" pathLength="100" fill="none" stroke="#EBD29B" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:6s"/>
+  <path class="gold-run" d="M 358 92 v 40 a 20 6.5 0 0 0 40 0 v -40" pathLength="100" fill="none" stroke="#FFF8E6" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:6s;animation-delay:-2.40s"/>
+  <path class="gold-run" d="M 358 92 v 40 a 20 6.5 0 0 0 40 0 v -40" pathLength="100" fill="none" stroke="#FFFFFF" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:6s;animation-delay:-4.20s"/>
+    <ellipse cx="378" cy="92" rx="20" ry="6.5" fill="#0D141C" stroke="#E3C98F" stroke-opacity="0.55" stroke-width="1"/>
+    <path d="M 358 107 a 20 6.5 0 0 0 40 0" fill="none" stroke="#E3C98F" stroke-opacity="0.32"/>
+    <path d="M 358 121 a 20 6.5 0 0 0 40 0" fill="none" stroke="#E3C98F" stroke-opacity="0.24"/>
+    <circle cx="378" cy="107" r="1.8" fill="#79D2FF" class="pulse"/>
+    <text class="mono" x="378" y="184" text-anchor="middle" font-size="10.5" letter-spacing="2.2" fill="#E3C98F">DATOS</text>
+    <text class="mono" x="378" y="201" text-anchor="middle" font-size="8.5" fill="#6E7C8D">PostgreSQL · PostGIS</text>
+
+    
+    <g>
+      <animateMotion dur="2.2s" begin="0s" repeatCount="indefinite" path="M 116.37306695894642 112 L 183.62693304105358 112" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+      <circle r="7.2" fill="#E3C98F" opacity="0.15"/>
+      <circle r="3" fill="#E3C98F"/>
+      <circle r="1.1" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+    
+    <g>
+      <animateMotion dur="2.8s" begin="-0.6s" repeatCount="indefinite" path="M 183.62693304105358 112 L 116.37306695894642 112" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+      <circle r="7.2" fill="#79D2FF" opacity="0.15"/>
+      <circle r="3" fill="#79D2FF"/>
+      <circle r="1.1" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+    
+    <g>
+      <animateMotion dur="2.1s" begin="-0.4s" repeatCount="indefinite" path="M 268.3730669589464 112 L 335.6269330410536 112" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+      <circle r="7.2" fill="#E3C98F" opacity="0.15"/>
+      <circle r="3" fill="#E3C98F"/>
+      <circle r="1.1" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+    
+    <g>
+      <animateMotion dur="2.7s" begin="0s" repeatCount="indefinite" path="M 335.6269330410536 112 L 268.3730669589464 112" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+      <circle r="7.2" fill="#79D2FF" opacity="0.15"/>
+      <circle r="3" fill="#79D2FF"/>
+      <circle r="1.1" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+
+    <text class="mono" x="24" y="228" font-size="8" letter-spacing="0.5" fill="#4B5666">UNA PETICIÓN · VALIDACIÓN EN EL BORDE · CONTRATO PRIMERO</text>
+
+    <line x1="24" y1="248" x2="428" y2="248" stroke="#1B232D"/>
+    <circle cx="33" cy="268" r="3" fill="#E3C98F"/>
+    <text class="mono" x="42" y="271" font-size="8" letter-spacing="0.8" fill="#6E7C8D">PETICIÓN</text>
+    <circle cx="106" cy="268" r="3" fill="#79D2FF"/>
+    <text class="mono" x="115" y="271" font-size="8" letter-spacing="0.8" fill="#6E7C8D">RESPUESTA</text>
+    <text class="mono" x="428" y="271" text-anchor="end" font-size="8" letter-spacing="0.6" fill="#4B5666">CLIC → HTTP → SQL → DATO</text>
+  </g>
+    </g>
+
+    
+  <g clip-path="url(#clip)" transform="rotate(-16 600 210)">
+    <rect class="sweep" x="-300" y="-160" width="230" height="760" fill="url(#sheen)"/>
+  </g>
+  </g>
+</svg>
