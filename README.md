@@ -92,7 +92,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/atom.svg?v=2" width="300" alt="Átomo animado con electrones de oro y cian orbitando el núcleo" />
+  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/atom-metal.svg?v=1" width="300" alt="Átomo animado con electrones de oro y cian orbitando el núcleo" />
 </p>
 
 <br>
