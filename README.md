@@ -122,7 +122,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 ### `04` · Trayectoria
 
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/trayectoria.svg?v=3" width="100%" alt="Trayectoria: fundamentos en el SENA, productos reales, calidad y entrega, y siguiente paso." />
+<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/trayectoria.svg?v=4" width="100%" alt="Trayectoria: fundamentos en el SENA, productos reales, calidad y entrega, y siguiente paso." />
 
 <br>
 
