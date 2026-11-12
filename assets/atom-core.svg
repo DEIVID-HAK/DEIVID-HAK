@@ -164,57 +164,57 @@
     <g transform="rotate(-24 200 200)">
       <g>
         <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="30s" repeatCount="indefinite"/>
-        <ellipse cx="200" cy="200" rx="146" ry="50" fill="none" stroke="url(#orbitStroke)" stroke-width="1.2" opacity="0.75"/>
+        <ellipse cx="200" cy="200" rx="146" ry="50" fill="none" stroke="url(#orbitStroke)" stroke-width="1.7" opacity="0.9"/>
         
     <g>
       <animateMotion dur="6.5s" begin="0s" repeatCount="indefinite" path="M 54 200 a 146 50 0 1 0 292 0 a 146 50 0 1 0 -292 0" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
-      <circle r="12.0" fill="url(#glowGold)" opacity="0.4"/>
-      <circle r="4.6" fill="url(#elGold)"/>
-      <circle cx="-1.4" cy="-1.6" r="1.4" fill="#FFFFFF" opacity="0.9"/>
+      <circle r="13.5" fill="url(#glowGold)" opacity="0.4"/>
+      <circle r="5.2" fill="url(#elGold)"/>
+      <circle cx="-1.6" cy="-1.8" r="1.6" fill="#FFFFFF" opacity="0.9"/>
     </g>
     <g>
       <animateMotion dur="6.5s" begin="-3.2s" repeatCount="indefinite" path="M 54 200 a 146 50 0 1 0 292 0 a 146 50 0 1 0 -292 0" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
-      <circle r="9.9" fill="url(#glowCyan)" opacity="0.4"/>
-      <circle r="3.8" fill="url(#elCyan)"/>
-      <circle cx="-1.1" cy="-1.3" r="1.1" fill="#FFFFFF" opacity="0.9"/>
+      <circle r="11.4" fill="url(#glowCyan)" opacity="0.4"/>
+      <circle r="4.4" fill="url(#elCyan)"/>
+      <circle cx="-1.3" cy="-1.5" r="1.3" fill="#FFFFFF" opacity="0.9"/>
     </g>
       </g>
     </g>
     <g transform="rotate(44 200 200)">
       <g>
         <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="-360 200 200" dur="38s" repeatCount="indefinite"/>
-        <ellipse cx="200" cy="200" rx="146" ry="50" fill="none" stroke="url(#orbitStroke)" stroke-width="1.2" opacity="0.75"/>
+        <ellipse cx="200" cy="200" rx="146" ry="50" fill="none" stroke="url(#orbitStroke)" stroke-width="1.7" opacity="0.9"/>
         
     <g>
       <animateMotion dur="8.5s" begin="-1.6s" repeatCount="indefinite" path="M 54 200 a 146 50 0 1 0 292 0 a 146 50 0 1 0 -292 0" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
-      <circle r="10.9" fill="url(#glowCyan)" opacity="0.4"/>
-      <circle r="4.2" fill="url(#elSilver)"/>
-      <circle cx="-1.3" cy="-1.5" r="1.3" fill="#FFFFFF" opacity="0.9"/>
+      <circle r="12.5" fill="url(#glowCyan)" opacity="0.4"/>
+      <circle r="4.8" fill="url(#elSilver)"/>
+      <circle cx="-1.4" cy="-1.7" r="1.4" fill="#FFFFFF" opacity="0.9"/>
     </g>
     <g>
       <animateMotion dur="8.5s" begin="-5.6s" repeatCount="indefinite" path="M 54 200 a 146 50 0 1 0 292 0 a 146 50 0 1 0 -292 0" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
-      <circle r="8.8" fill="url(#glowGold)" opacity="0.4"/>
-      <circle r="3.4" fill="url(#elGold)"/>
-      <circle cx="-1.0" cy="-1.2" r="1.0" fill="#FFFFFF" opacity="0.9"/>
+      <circle r="10.4" fill="url(#glowGold)" opacity="0.4"/>
+      <circle r="4" fill="url(#elGold)"/>
+      <circle cx="-1.2" cy="-1.4" r="1.2" fill="#FFFFFF" opacity="0.9"/>
     </g>
       </g>
     </g>
     <g transform="rotate(100 200 200)">
       <g>
         <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="24s" repeatCount="indefinite"/>
-        <ellipse cx="200" cy="200" rx="146" ry="50" fill="none" stroke="url(#orbitStroke)" stroke-width="1.2" opacity="0.75"/>
+        <ellipse cx="200" cy="200" rx="146" ry="50" fill="none" stroke="url(#orbitStroke)" stroke-width="1.7" opacity="0.9"/>
         
     <g>
       <animateMotion dur="5.5s" begin="-2.4s" repeatCount="indefinite" path="M 54 200 a 146 50 0 1 0 292 0 a 146 50 0 1 0 -292 0" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
-      <circle r="11.4" fill="url(#glowCyan)" opacity="0.4"/>
-      <circle r="4.4" fill="url(#elCyan)"/>
-      <circle cx="-1.3" cy="-1.5" r="1.3" fill="#FFFFFF" opacity="0.9"/>
+      <circle r="13.0" fill="url(#glowCyan)" opacity="0.4"/>
+      <circle r="5" fill="url(#elCyan)"/>
+      <circle cx="-1.5" cy="-1.8" r="1.5" fill="#FFFFFF" opacity="0.9"/>
     </g>
     <g>
       <animateMotion dur="5.5s" begin="-4.6s" repeatCount="indefinite" path="M 54 200 a 146 50 0 1 0 292 0 a 146 50 0 1 0 -292 0" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
-      <circle r="9.4" fill="url(#glowCyan)" opacity="0.4"/>
-      <circle r="3.6" fill="url(#elSilver)"/>
-      <circle cx="-1.1" cy="-1.3" r="1.1" fill="#FFFFFF" opacity="0.9"/>
+      <circle r="10.9" fill="url(#glowCyan)" opacity="0.4"/>
+      <circle r="4.2" fill="url(#elSilver)"/>
+      <circle cx="-1.3" cy="-1.5" r="1.3" fill="#FFFFFF" opacity="0.9"/>
     </g>
       </g>
     </g>
@@ -248,12 +248,12 @@
             stroke-dasharray="12 88" class="gold-run" style="animation-duration:9s"/>
   </g>
 
-  <circle cx="200" cy="200" r="176" fill="none" stroke="url(#edge)" stroke-width="1.5" stroke-opacity="0.7"/>
-  <circle cx="200" cy="200" r="172" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.05"/>
-  <circle class="gold-halo" cx="200" cy="200" r="176" fill="none" stroke="#E3C98F" stroke-width="6" stroke-opacity="0.22"/>
-  <circle cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="url(#goldEdge)" stroke-opacity="0.55" stroke-width="1"/>
-  <circle class="gold-run" cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="url(#goldTrail)" stroke-width="3.6" stroke-opacity="0.22" stroke-linecap="round" stroke-dasharray="8 92" style="animation-duration:12s"/>
-  <circle class="gold-run" cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="url(#goldTrail)" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="8 92" style="animation-duration:12s"/>
-  <circle class="gold-run" cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="#FFF3D6" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="1.2 98.8" style="animation-duration:12s;animation-delay:-6s"/>
+  <circle cx="200" cy="200" r="176" fill="none" stroke="url(#edge)" stroke-width="2" stroke-opacity="0.7"/>
+  <circle cx="200" cy="200" r="171" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.05"/>
+  <circle class="gold-halo" cx="200" cy="200" r="176" fill="none" stroke="#E3C98F" stroke-width="10" stroke-opacity="0.26"/>
+  <circle cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="url(#goldEdge)" stroke-opacity="0.75" stroke-width="2.4"/>
+  <circle class="gold-run" cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="url(#goldTrail)" stroke-width="7" stroke-opacity="0.25" stroke-dasharray="14 86" style="animation-duration:10s"/>
+  <circle class="gold-run" cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="url(#goldTrail)" stroke-width="3.4" stroke-linecap="round" stroke-dasharray="14 86" style="animation-duration:10s"/>
+  <circle class="gold-run" cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="#FFF3D6" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="1.6 98.4" style="animation-duration:10s;animation-delay:-4s"/>
   
 </svg>

@@ -25,7 +25,7 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/atom-metal.svg?v=2" width="150" alt="Átomo animado con electrones de oro y cian orbitando el núcleo" />
+  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/atom-core.svg?v=1" width="150" alt="Átomo animado con electrones de oro y cian orbitando el núcleo" />
 </p>
 
 <br>
