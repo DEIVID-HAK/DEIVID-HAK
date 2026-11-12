@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/hero-chrome.svg?v=2" width="100%" alt="David Vélez — desarrollador full stack. Backend, APIs y datos. Medellín, Colombia." />
+  <img src="assets/hero-chrome.svg?v=3" width="100%" alt="David Vélez — desarrollador full stack. Backend, APIs y datos. Medellín, Colombia." />
 
   <br>
 
@@ -38,7 +38,7 @@ Busco mi **primera oportunidad profesional** —prácticas o rol junior— en un
 
 <br>
 
-<img src="assets/metrics.svg?v=2" width="100%" alt="4 sistemas entregados, 46 pruebas automatizadas, 702.540 registros geoespaciales y 25 tablas modeladas." />
+<img src="assets/metrics.svg?v=3" width="100%" alt="4 sistemas entregados, 46 pruebas automatizadas, 702.540 registros geoespaciales y 25 tablas modeladas." />
 
 <br>
 
@@ -55,7 +55,7 @@ Busco mi **primera oportunidad profesional** —prácticas o rol junior— en un
 
 <br>
 
-<img src="assets/pipeline.svg?v=2" width="100%" alt="Proceso de entrega: entender, modelar, construir, verificar y desplegar." />
+<img src="assets/pipeline.svg?v=3" width="100%" alt="Proceso de entrega: entender, modelar, construir, verificar y desplegar." />
 
 ---
 
@@ -68,10 +68,10 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 <div align="center">
 
   <p>
-    <a href="https://github.com/DAVIDVLEZ-DEVELOPER/PROYECTO-SENA-TIENDA-TEXTIL"><img src="assets/bento-tienda-textil.svg?v=2" width="49%" alt="D&amp;D Textil — e-commerce textil con inventario y pagos" /></a>&nbsp;<a href="https://github.com/DAVIDVLEZ-DEVELOPER/PPTMaps"><img src="assets/bento-pptmaps.svg?v=2" width="49%" alt="PPTMaps — inteligencia geoespacial para Medellín" /></a>
+    <a href="https://github.com/DAVIDVLEZ-DEVELOPER/PROYECTO-SENA-TIENDA-TEXTIL"><img src="assets/bento-tienda-textil.svg?v=3" width="49%" alt="D&amp;D Textil — e-commerce textil con inventario y pagos" /></a>&nbsp;<a href="https://github.com/DAVIDVLEZ-DEVELOPER/PPTMaps"><img src="assets/bento-pptmaps.svg?v=3" width="49%" alt="PPTMaps — inteligencia geoespacial para Medellín" /></a>
   </p>
   <p>
-    <a href="https://github.com/DAVIDVLEZ-DEVELOPER/architect-td"><img src="assets/bento-architect-td.svg?v=2" width="49%" alt="Architect TD — juego y laboratorio de arquitectura y DevOps" /></a>&nbsp;<a href="https://github.com/DAVIDVLEZ-DEVELOPER/agendalili"><img src="assets/bento-agenda-sdd.svg?v=2" width="49%" alt="Agenda SDD — tareas y compromisos con reglas deterministas" /></a>
+    <a href="https://github.com/DAVIDVLEZ-DEVELOPER/architect-td"><img src="assets/bento-architect-td.svg?v=3" width="49%" alt="Architect TD — juego y laboratorio de arquitectura y DevOps" /></a>&nbsp;<a href="https://github.com/DAVIDVLEZ-DEVELOPER/agendalili"><img src="assets/bento-agenda-sdd.svg?v=3" width="49%" alt="Agenda SDD — tareas y compromisos con reglas deterministas" /></a>
   </p>
 
 </div>
@@ -95,7 +95,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 ### `03` · Stack
 
-<img src="assets/stack-matrix.svg?v=2" width="100%" alt="Mapa de capacidades: backend, datos, frontend y entrega." />
+<img src="assets/stack-matrix.svg?v=3" width="100%" alt="Mapa de capacidades: backend, datos, frontend y entrega." />
 
 <br>
 
@@ -122,7 +122,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 ### `04` · Trayectoria
 
-<img src="assets/trayectoria.svg?v=2" width="100%" alt="Trayectoria: fundamentos en el SENA, productos reales, calidad y entrega, y siguiente paso." />
+<img src="assets/trayectoria.svg?v=3" width="100%" alt="Trayectoria: fundamentos en el SENA, productos reales, calidad y entrega, y siguiente paso." />
 
 <br>
 
@@ -151,7 +151,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/output/github-snake.svg?v=7" width="92%" alt="Gráfico de contribuciones"/>
+  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/output/github-snake.svg?v=8" width="92%" alt="Gráfico de contribuciones"/>
 </p>
 
 <p align="center"><sub>El gráfico se regenera todos los días con un workflow de GitHub Actions sobre la rama <code>output</code>.</sub></p>
@@ -162,7 +162,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 ### `06` · Contacto
 
-<img src="assets/contacto-terminal.svg?v=2" width="100%" alt="Contacto: correo, GitHub, YouTube, ubicación y disponibilidad." />
+<img src="assets/contacto-terminal.svg?v=3" width="100%" alt="Contacto: correo, GitHub, YouTube, ubicación y disponibilidad." />
 
 <br>
 
@@ -176,7 +176,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 <br>
 
-<img src="assets/footer-signature.svg?v=2" width="100%" alt="David Vélez — Medellín, Colombia. Disponible para prácticas y roles junior." />
+<img src="assets/footer-signature.svg?v=3" width="100%" alt="David Vélez — Medellín, Colombia. Disponible para prácticas y roles junior." />
 
 <details>
   <summary><b>English summary</b></summary>
