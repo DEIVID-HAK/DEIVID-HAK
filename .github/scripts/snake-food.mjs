@@ -97,13 +97,21 @@ const addFood = (file, color, ratio) => {
   }
 
   const pellet = (c, r) => `<circle class="food" cx="${c.x + 6}" cy="${c.y + 6}" r="${r}" fill="${color}"/>`;
-  const food = `<g class="food-layer">${word.map((c) => pellet(c, 3.4)).join('')}${crumbs.map((c) => pellet(c, 2.4)).join('')}</g>`;
+  const letter = (c) => `<circle class="food-word" cx="${c.x + 6}" cy="${c.y + 6}" r="4" fill="${color}"/>` +
+    `<circle class="food-glow" cx="${c.x + 6}" cy="${c.y + 6}" r="8" fill="${color}" opacity="0.16"/>`;
+  const food = `<g class="food-layer">${word.map((c) => letter(c)).join('')}${crumbs.map((c) => pellet(c, 2.4)).join('')}</g>`;
 
   // la comida va por debajo de la serpiente
   const anchor = svg.indexOf('<rect class="u');
   svg = (anchor > 0 ? svg.slice(0, anchor) + food + svg.slice(anchor) : svg.replace('</svg>', `${food}</svg>`));
 
-  const style = `<style>.food{fill:${color};transform-box:fill-box;transform-origin:center;animation:foodpulse 2.6s ease-in-out infinite}@keyframes foodpulse{0%,100%{opacity:.3;transform:scale(.75)}50%{opacity:1;transform:scale(1.2)}}</style>`;
+  const style = `<style>.food,.food-word,.food-glow{transform-box:fill-box;transform-origin:center}` +
+    `.food{fill:${color};animation:foodpulse 2.6s ease-in-out infinite}` +
+    `.food-word{fill:${color};animation:foodword 3.4s ease-in-out infinite}` +
+    `.food-glow{fill:${color};animation:foodglow 3.4s ease-in-out infinite}` +
+    `@keyframes foodpulse{0%,100%{opacity:.2;transform:scale(.7)}50%{opacity:.85;transform:scale(1.1)}}` +
+    `@keyframes foodword{0%,100%{opacity:.8;transform:scale(1)}50%{opacity:1;transform:scale(1.18)}}` +
+    `@keyframes foodglow{0%,100%{opacity:.08;transform:scale(.9)}50%{opacity:.22;transform:scale(1.15)}}</style>`;
   svg = svg.replace('</svg>', `${style}</svg>`);
 
   writeFileSync(file, svg);

@@ -151,7 +151,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/output/snake-metal.svg?v=1" width="92%" alt="Serpiente de contribuciones en cromo y cian, con comida dorada dispersa." />
+  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/output/snake-code.svg?v=1" width="92%" alt="Serpiente de contribuciones en cromo y cian, con la palabra CODE formada por comida dorada." />
 </p>
 
 <p align="center"><sub>La serpiente y su comida se regeneran todos los días con un workflow de GitHub Actions sobre la rama <code>output</code>.</sub></p>
