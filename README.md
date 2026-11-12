@@ -176,7 +176,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 <br>
 
-<img src="assets/footer-id.svg" width="100%" alt="DEIVID-HAK — Medellín, Colombia. Disponible para prácticas y roles junior." />
+<img src="assets/footer-id.svg" width="100%" alt="DAVID VELEZ — Medellín, Colombia. Disponible para prácticas y roles junior." />
 
 <details>
   <summary><b>English summary</b></summary>
