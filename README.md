@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/profile-card.svg?v=1" width="100%" alt="David Vélez — desarrollador full stack. Backend, APIs y datos. Medellín, Colombia." />
+  <img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/profile-card.svg?v=1" width="100%" alt="David Vélez — desarrollador full stack. Backend, APIs y datos. Medellín, Colombia." />
 
   <br>
 
@@ -38,7 +38,7 @@ Busco mi **primera oportunidad profesional** —prácticas o rol junior— en un
 
 <br>
 
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/figures.svg?v=1" width="100%" alt="4 sistemas entregados, 46 pruebas automatizadas, 702.540 registros geoespaciales y 25 tablas modeladas." />
+<img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/figures.svg?v=1" width="100%" alt="4 sistemas entregados, 46 pruebas automatizadas, 702.540 registros geoespaciales y 25 tablas modeladas." />
 
 <br>
 
@@ -55,7 +55,7 @@ Busco mi **primera oportunidad profesional** —prácticas o rol junior— en un
 
 <br>
 
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/process.svg?v=1" width="100%" alt="Proceso de entrega: entender, modelar, construir, verificar y desplegar." />
+<img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/process.svg?v=1" width="100%" alt="Proceso de entrega: entender, modelar, construir, verificar y desplegar." />
 
 ---
 
@@ -68,10 +68,10 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 <div align="center">
 
   <p>
-    <a href="https://github.com/DAVIDVLEZ-DEVELOPER/PROYECTO-SENA-TIENDA-TEXTIL"><img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/projects-textil.svg?v=1" width="49%" alt="D&amp;D Textil — e-commerce textil con inventario y pagos" /></a>&nbsp;<a href="https://github.com/DAVIDVLEZ-DEVELOPER/PPTMaps"><img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/projects-pptmaps.svg?v=1" width="49%" alt="PPTMaps — inteligencia geoespacial para Medellín" /></a>
+    <a href="https://github.com/DEIVID-HAK/PROYECTO-SENA-TIENDA-TEXTIL"><img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/projects-textil.svg?v=1" width="49%" alt="D&amp;D Textil — e-commerce textil con inventario y pagos" /></a>&nbsp;<a href="https://github.com/DEIVID-HAK/PPTMaps"><img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/projects-pptmaps.svg?v=1" width="49%" alt="PPTMaps — inteligencia geoespacial para Medellín" /></a>
   </p>
   <p>
-    <a href="https://github.com/DAVIDVLEZ-DEVELOPER/architect-td"><img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/projects-architect.svg?v=1" width="49%" alt="Architect TD — juego y laboratorio de arquitectura y DevOps" /></a>&nbsp;<a href="https://github.com/DAVIDVLEZ-DEVELOPER/agendalili"><img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/projects-agenda.svg?v=1" width="49%" alt="Agenda SDD — tareas y compromisos con reglas deterministas" /></a>
+    <a href="https://github.com/DEIVID-HAK/architect-td"><img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/projects-architect.svg?v=1" width="49%" alt="Architect TD — juego y laboratorio de arquitectura y DevOps" /></a>&nbsp;<a href="https://github.com/DEIVID-HAK/agendalili"><img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/projects-agenda.svg?v=1" width="49%" alt="Agenda SDD — tareas y compromisos con reglas deterministas" /></a>
   </p>
 
 </div>
@@ -82,10 +82,10 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
   | Proyecto | Problema | Decisión técnica | Qué quedó verificable |
   | :--- | :--- | :--- | :--- |
-  | **[D&D Textil](https://github.com/DAVIDVLEZ-DEVELOPER/PROYECTO-SENA-TIENDA-TEXTIL)** | Venta de telas por metro con inventario, tres roles y pagos en línea. | React + Vite en el cliente; backend en **Java 21** sobre `HttpServer` y JDBC; **PostgreSQL 17** con 25 tablas y 20 llaves foráneas; Docker Compose para los tres servicios. | Pago con **Wompi** y firma `HMAC-SHA256`, SSO con Google y Microsoft, 46 pruebas automatizadas y contrato **OpenAPI v3**. |
-  | **[PPTMaps](https://github.com/DAVIDVLEZ-DEVELOPER/PPTMaps)** | Movilidad urbana dispersa en varias fuentes, sin filtros espaciales ni alertas en tiempo real. | **FastAPI** async con SQLAlchemy 2.0; PostgreSQL 16 + **PostGIS**; **Redis** y **Celery** para caché y tareas; React 19 + Leaflet en el mapa. | 702.540 incidentes históricos cargados, alertas por **WebSockets**, agrupamiento **DBSCAN** y 15 estaciones de calidad del aire. |
-  | **[Architect TD](https://github.com/DAVIDVLEZ-DEVELOPER/architect-td)** | Explicar arquitectura, resiliencia y DevOps sin diapositivas. | Juego en **HTML5 Canvas** con Tailwind; 10 módulos de infraestructura; imagen **multi-stage** sobre Nginx; audio procedural con Web Audio API. | 5 niveles, telemetría de **RPS / P99 / SLA** en vivo, incidentes SRE con análisis de causa raíz y despliegue con Docker. |
-  | **[Agenda SDD](https://github.com/DAVIDVLEZ-DEVELOPER/agendalili)** | Tareas y compromisos con reglas de negocio que no se pueden saltar. | **SDD v1.0.0**; Node.js 22 con `node:sqlite`; contratos en **TypeScript**; capas de dominio, repositorio y servicio; UI glassmorphism. | Reglas **RN-01 a RN-05**, detección determinista de solapamientos horarios y suite de verificación con 10/10 comprobaciones. |
+  | **[D&D Textil](https://github.com/DEIVID-HAK/PROYECTO-SENA-TIENDA-TEXTIL)** | Venta de telas por metro con inventario, tres roles y pagos en línea. | React + Vite en el cliente; backend en **Java 21** sobre `HttpServer` y JDBC; **PostgreSQL 17** con 25 tablas y 20 llaves foráneas; Docker Compose para los tres servicios. | Pago con **Wompi** y firma `HMAC-SHA256`, SSO con Google y Microsoft, 46 pruebas automatizadas y contrato **OpenAPI v3**. |
+  | **[PPTMaps](https://github.com/DEIVID-HAK/PPTMaps)** | Movilidad urbana dispersa en varias fuentes, sin filtros espaciales ni alertas en tiempo real. | **FastAPI** async con SQLAlchemy 2.0; PostgreSQL 16 + **PostGIS**; **Redis** y **Celery** para caché y tareas; React 19 + Leaflet en el mapa. | 702.540 incidentes históricos cargados, alertas por **WebSockets**, agrupamiento **DBSCAN** y 15 estaciones de calidad del aire. |
+  | **[Architect TD](https://github.com/DEIVID-HAK/architect-td)** | Explicar arquitectura, resiliencia y DevOps sin diapositivas. | Juego en **HTML5 Canvas** con Tailwind; 10 módulos de infraestructura; imagen **multi-stage** sobre Nginx; audio procedural con Web Audio API. | 5 niveles, telemetría de **RPS / P99 / SLA** en vivo, incidentes SRE con análisis de causa raíz y despliegue con Docker. |
+  | **[Agenda SDD](https://github.com/DEIVID-HAK/agendalili)** | Tareas y compromisos con reglas de negocio que no se pueden saltar. | **SDD v1.0.0**; Node.js 22 con `node:sqlite`; contratos en **TypeScript**; capas de dominio, repositorio y servicio; UI glassmorphism. | Reglas **RN-01 a RN-05**, detección determinista de solapamientos horarios y suite de verificación con 10/10 comprobaciones. |
 
 </details>
 
@@ -95,7 +95,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 ### `03` · Stack
 
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/capabilities.svg?v=1" width="100%" alt="Mapa de capacidades: backend, datos, frontend y entrega." />
+<img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/capabilities.svg?v=1" width="100%" alt="Mapa de capacidades: backend, datos, frontend y entrega." />
 
 <br>
 
@@ -122,7 +122,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 ### `04` · Trayectoria
 
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/trajectory.svg?v=1" width="100%" alt="Trayectoria: fundamentos en el SENA, productos reales, calidad y entrega, y siguiente paso." />
+<img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/trajectory.svg?v=1" width="100%" alt="Trayectoria: fundamentos en el SENA, productos reales, calidad y entrega, y siguiente paso." />
 
 <br>
 
@@ -147,11 +147,11 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 ### `05` · Actividad
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=DAVIDVLEZ-DEVELOPER&background=0A0E14&border=27313D&stroke=27313D&ring=79D2FF&fire=E3C98F&currStreakNum=E9EFF7&currStreakLabel=79D2FF&sideNums=C3CEDA&sideLabels=A9B6C6&dates=6E7C8D&excludeDaysLabel=6E7C8D" alt="Racha de contribuciones"/>
+  <img src="https://streak-stats.demolab.com?user=DEIVID-HAK&background=0A0E14&border=27313D&stroke=27313D&ring=79D2FF&fire=E3C98F&currStreakNum=E9EFF7&currStreakLabel=79D2FF&sideNums=C3CEDA&sideLabels=A9B6C6&dates=6E7C8D&excludeDaysLabel=6E7C8D" alt="Racha de contribuciones"/>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/output/snake-code.svg?v=1" width="92%" alt="Serpiente de contribuciones en cromo y cian, con la palabra CODE formada por comida dorada." />
+  <img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/output/snake-code.svg?v=1" width="92%" alt="Serpiente de contribuciones en cromo y cian, con la palabra CODE formada por comida dorada." />
 </p>
 
 <p align="center"><sub>La serpiente y su comida se regeneran todos los días con un workflow de GitHub Actions sobre la rama <code>output</code>.</sub></p>
@@ -162,13 +162,13 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 ### `06` · Contacto
 
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/contact-metal.svg?v=1" width="100%" alt="Contacto: correo, GitHub, YouTube, ubicación y disponibilidad." />
+<img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/contact-links.svg?v=1" width="100%" alt="Contacto: correo, GitHub, YouTube, ubicación y disponibilidad." />
 
 <br>
 
 <p align="center">
   <a href="mailto:daviidvp228@gmail.com"><img src="https://img.shields.io/badge/Email-daviidvp228%40gmail.com-232D3A?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0A0E14" alt="Email"/></a>
-  <a href="https://github.com/DAVIDVLEZ-DEVELOPER"><img src="https://img.shields.io/badge/GitHub-DAVIDVLEZ--DEVELOPER-232D3A?style=for-the-badge&logo=github&logoColor=E9EFF7&labelColor=0A0E14" alt="GitHub"/></a>
+  <a href="https://github.com/DEIVID-HAK"><img src="https://img.shields.io/badge/GitHub-DEIVID--HAK-232D3A?style=for-the-badge&logo=github&logoColor=E9EFF7&labelColor=0A0E14" alt="GitHub"/></a>
   <a href="https://www.youtube.com/@DEIIVIDVLEZ"><img src="https://img.shields.io/badge/YouTube-DEIIVIDVLEZ-232D3A?style=for-the-badge&logo=youtube&logoColor=FF0000&labelColor=0A0E14" alt="YouTube"/></a>
 </p>
 
@@ -176,7 +176,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 <br>
 
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/footer-metal.svg?v=1" width="100%" alt="David Vélez — Medellín, Colombia. Disponible para prácticas y roles junior." />
+<img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/footer-metal.svg?v=1" width="100%" alt="David Vélez — Medellín, Colombia. Disponible para prácticas y roles junior." />
 
 <details>
   <summary><b>English summary</b></summary>
