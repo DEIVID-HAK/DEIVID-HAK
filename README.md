@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/profile-card.svg?v=1" width="100%" alt="David Vélez — desarrollador full stack. Backend, APIs y datos. Medellín, Colombia." />
+  <img src="assets/profile-card.svg" width="100%" alt="David Vélez — desarrollador full stack. Backend, APIs y datos. Medellín, Colombia." />
 
   <br>
 
@@ -38,7 +38,7 @@ Busco mi **primera oportunidad profesional** —prácticas o rol junior— en un
 
 <br>
 
-<img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/figures.svg?v=1" width="100%" alt="4 sistemas entregados, 46 pruebas automatizadas, 702.540 registros geoespaciales y 25 tablas modeladas." />
+<img src="assets/figures.svg" width="100%" alt="4 sistemas entregados, 46 pruebas automatizadas, 702.540 registros geoespaciales y 25 tablas modeladas." />
 
 <br>
 
@@ -55,7 +55,7 @@ Busco mi **primera oportunidad profesional** —prácticas o rol junior— en un
 
 <br>
 
-<img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/process.svg?v=1" width="100%" alt="Proceso de entrega: entender, modelar, construir, verificar y desplegar." />
+<img src="assets/process.svg" width="100%" alt="Proceso de entrega: entender, modelar, construir, verificar y desplegar." />
 
 ---
 
@@ -68,10 +68,10 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 <div align="center">
 
   <p>
-    <a href="https://github.com/DEIVID-HAK/PROYECTO-SENA-TIENDA-TEXTIL"><img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/projects-textil.svg?v=1" width="49%" alt="D&amp;D Textil — e-commerce textil con inventario y pagos" /></a>&nbsp;<a href="https://github.com/DEIVID-HAK/PPTMaps"><img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/projects-pptmaps.svg?v=1" width="49%" alt="PPTMaps — inteligencia geoespacial para Medellín" /></a>
+    <a href="https://github.com/DEIVID-HAK/PROYECTO-SENA-TIENDA-TEXTIL"><img src="assets/projects-textil.svg" width="49%" alt="D&amp;D Textil — e-commerce textil con inventario y pagos" /></a>&nbsp;<a href="https://github.com/DEIVID-HAK/PPTMaps"><img src="assets/projects-pptmaps.svg" width="49%" alt="PPTMaps — inteligencia geoespacial para Medellín" /></a>
   </p>
   <p>
-    <a href="https://github.com/DEIVID-HAK/architect-td"><img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/projects-architect.svg?v=1" width="49%" alt="Architect TD — juego y laboratorio de arquitectura y DevOps" /></a>&nbsp;<a href="https://github.com/DEIVID-HAK/agendalili"><img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/projects-agenda.svg?v=1" width="49%" alt="Agenda SDD — tareas y compromisos con reglas deterministas" /></a>
+    <a href="https://github.com/DEIVID-HAK/architect-td"><img src="assets/projects-architect.svg" width="49%" alt="Architect TD — juego y laboratorio de arquitectura y DevOps" /></a>&nbsp;<a href="https://github.com/DEIVID-HAK/agendalili"><img src="assets/projects-agenda.svg" width="49%" alt="Agenda SDD — tareas y compromisos con reglas deterministas" /></a>
   </p>
 
 </div>
@@ -95,7 +95,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 ### `03` · Stack
 
-<img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/capabilities.svg?v=1" width="100%" alt="Mapa de capacidades: backend, datos, frontend y entrega." />
+<img src="assets/capabilities.svg" width="100%" alt="Mapa de capacidades: backend, datos, frontend y entrega." />
 
 <br>
 
@@ -122,7 +122,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 ### `04` · Trayectoria
 
-<img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/trajectory.svg?v=1" width="100%" alt="Trayectoria: fundamentos en el SENA, productos reales, calidad y entrega, y siguiente paso." />
+<img src="assets/trajectory.svg" width="100%" alt="Trayectoria: fundamentos en el SENA, productos reales, calidad y entrega, y siguiente paso." />
 
 <br>
 
@@ -162,7 +162,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 ### `06` · Contacto
 
-<img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/contact-links.svg?v=1" width="100%" alt="Contacto: correo, GitHub, YouTube, ubicación y disponibilidad." />
+<img src="assets/contact-links.svg" width="100%" alt="Contacto: correo, GitHub, YouTube, ubicación y disponibilidad." />
 
 <br>
 
@@ -176,7 +176,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 <br>
 
-<img src="https://raw.githubusercontent.com/DEIVID-HAK/DEIVID-HAK/main/assets/footer-metal.svg?v=1" width="100%" alt="David Vélez — Medellín, Colombia. Disponible para prácticas y roles junior." />
+<img src="assets/footer-metal.svg" width="100%" alt="David Vélez — Medellín, Colombia. Disponible para prácticas y roles junior." />
 
 <details>
   <summary><b>English summary</b></summary>
