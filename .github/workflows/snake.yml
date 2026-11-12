@@ -14,6 +14,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
       - name: generate snake graphs
         id: snk
         uses: Platane/snk/svg-only@v3
