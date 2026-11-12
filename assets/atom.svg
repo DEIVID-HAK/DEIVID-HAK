@@ -120,6 +120,7 @@
       @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
     </style>
     <clipPath id="clip"><rect width="400" height="400" rx="20"/></clipPath>
+    <clipPath id="atomClip"><circle cx="200" cy="200" r="176"/></clipPath>
     <radialGradient id="elGold" cx="0.35" cy="0.3" r="0.75">
       <stop offset="0" stop-color="#FFF8E8"/>
       <stop offset="0.45" stop-color="#E3C98F"/>
@@ -149,13 +150,17 @@
   
   </defs>
 
-  <circle cx="200" cy="200" r="178" fill="url(#atomGlow)" opacity="0.38"/>
+  <g clip-path="url(#atomClip)">
+    <circle cx="200" cy="200" r="176" fill="url(#bg)"/>
+    <circle cx="200" cy="200" r="176" fill="url(#brush)"/>
+    <circle cx="200" cy="200" r="176" fill="url(#grid)"/>
+    <circle cx="200" cy="200" r="176" fill="url(#atomGlow)" opacity="0.9"/>
 
-  <circle cx="200" cy="200" r="150" fill="none" stroke="url(#goldEdge)" stroke-width="1" stroke-dasharray="1.5 10" opacity="0.42">
-    <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="-360 200 200" dur="70s" repeatCount="indefinite"/>
-  </circle>
+    <circle cx="200" cy="200" r="150" fill="none" stroke="url(#goldEdge)" stroke-width="1" stroke-dasharray="1.5 10" opacity="0.42">
+      <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="-360 200 200" dur="70s" repeatCount="indefinite"/>
+    </circle>
 
-  
+    
     <g transform="rotate(-24 200 200)">
       <g>
         <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="30s" repeatCount="indefinite"/>
@@ -213,7 +218,7 @@
     </g>
       </g>
     </g>
-  
+    
     <g>
       <animateMotion dur="19s" begin="0s" repeatCount="indefinite" path="M 82 200 a 118 118 0 1 1 236 0 a 118 118 0 1 1 -236 0"/>
       <circle r="2.1" fill="url(#elGold)">
@@ -233,13 +238,22 @@
       </circle>
     </g>
 
-  <circle cx="200" cy="200" r="46" fill="url(#atomGlow)" opacity="0.65" class="pulse-slow"/>
-  <g>
-    <circle cx="200" cy="200" r="17" fill="url(#chrome)" stroke="#E3C98F" stroke-opacity="0.55" stroke-width="1"/>
-    <circle cx="200" cy="200" r="6.5" fill="#79D2FF" opacity="0.92" class="pulse"/>
-    <circle cx="195" cy="194" r="3" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="200" cy="200" r="46" fill="url(#atomGlow)" opacity="0.75" class="pulse-slow"/>
+    <g>
+      <circle cx="200" cy="200" r="17" fill="url(#chrome)" stroke="#E3C98F" stroke-opacity="0.55" stroke-width="1"/>
+      <circle cx="200" cy="200" r="6.5" fill="#79D2FF" opacity="0.92" class="pulse"/>
+      <circle cx="195" cy="194" r="3" fill="#FFFFFF" opacity="0.9"/>
+    </g>
+    <circle cx="200" cy="200" r="27" fill="none" stroke="url(#goldTrail)" stroke-width="1.4" pathLength="100"
+            stroke-dasharray="12 88" class="gold-run" style="animation-duration:9s"/>
   </g>
-  <circle cx="200" cy="200" r="27" fill="none" stroke="url(#goldTrail)" stroke-width="1.4" pathLength="100"
-          stroke-dasharray="12 88" class="gold-run" style="animation-duration:9s"/>
+
+  <circle cx="200" cy="200" r="176" fill="none" stroke="url(#edge)" stroke-width="1.5" stroke-opacity="0.7"/>
+  <circle cx="200" cy="200" r="172" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.05"/>
+  <circle class="gold-halo" cx="200" cy="200" r="176" fill="none" stroke="#E3C98F" stroke-width="6" stroke-opacity="0.22"/>
+  <circle cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="url(#goldEdge)" stroke-opacity="0.55" stroke-width="1"/>
+  <circle class="gold-run" cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="url(#goldTrail)" stroke-width="3.6" stroke-opacity="0.22" stroke-linecap="round" stroke-dasharray="8 92" style="animation-duration:12s"/>
+  <circle class="gold-run" cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="url(#goldTrail)" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="8 92" style="animation-duration:12s"/>
+  <circle class="gold-run" cx="200" cy="200" r="176" fill="none" pathLength="100" stroke="#FFF3D6" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="1.2 98.8" style="animation-duration:12s;animation-delay:-6s"/>
   
 </svg>
