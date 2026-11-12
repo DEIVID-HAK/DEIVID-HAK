@@ -1,0 +1,5 @@
+# Normaliza finales de línea para que los SVG se rendericen igual en cualquier sistema.
+* text=auto eol=lf
+*.svg text eol=lf
+*.md text eol=lf
+*.yml text eol=lf

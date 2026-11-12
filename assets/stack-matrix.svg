@@ -1,124 +1,222 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="452" viewBox="0 0 1200 452" role="img" aria-label="Mapa de capacidades de David Velez: backend, datos, frontend y entrega.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-label="Mapa de capacidades: backend, datos, frontend y entrega.">
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#080205"/>
-      <stop offset="1" stop-color="#1B0610"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#05070B"/>
+      <stop offset="0.5" stop-color="#0A0E14"/>
+      <stop offset="1" stop-color="#121821"/>
     </linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#B01E45" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#E0608A"/>
-      <stop offset="1" stop-color="#B01E45" stop-opacity="0"/>
+
+    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="0.12">
+      <stop offset="0" stop-color="#6C7888"/>
+      <stop offset="0.14" stop-color="#DCE5EF"/>
+      <stop offset="0.3" stop-color="#FFFFFF"/>
+      <stop offset="0.44" stop-color="#AFBCCB"/>
+      <stop offset="0.58" stop-color="#FFFFFF"/>
+      <stop offset="0.72" stop-color="#C6D1DE"/>
+      <stop offset="0.86" stop-color="#8D99A9"/>
+      <stop offset="1" stop-color="#E4EBF4"/>
     </linearGradient>
-    <clipPath id="clip"><rect width="1200" height="452" rx="24"/></clipPath>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#B01E45" stroke-opacity="0.10" stroke-width="1"/>
+
+    <linearGradient id="chromeSoft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B98A8"/>
+      <stop offset="0.5" stop-color="#EDF3FA"/>
+      <stop offset="1" stop-color="#9AA6B6"/>
+    </linearGradient>
+
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#47535F"/>
+      <stop offset="0.22" stop-color="#C8D3E0"/>
+      <stop offset="0.45" stop-color="#39434F"/>
+      <stop offset="0.68" stop-color="#E9EFF7"/>
+      <stop offset="0.88" stop-color="#4A5663"/>
+      <stop offset="1" stop-color="#8A96A6"/>
+    </linearGradient>
+
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="0.6" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="cyanRail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#79D2FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#79D2FF"/>
+      <stop offset="1" stop-color="#79D2FF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="goldRail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E3C98F" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#E3C98F"/>
+      <stop offset="1" stop-color="#E3C98F" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.055"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.012"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.028"/>
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#79D2FF" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#79D2FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowGold" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E3C98F" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#E3C98F" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="screw" cx="0.35" cy="0.3" r="0.7">
+      <stop offset="0" stop-color="#F4F8FD"/>
+      <stop offset="0.55" stop-color="#8D99A9"/>
+      <stop offset="1" stop-color="#2A3340"/>
+    </radialGradient>
+
+    <pattern id="brush" width="7" height="7" patternUnits="userSpaceOnUse">
+      <path d="M0 1.5H7" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="0.7"/>
+      <path d="M0 4.5H7" stroke="#FFFFFF" stroke-opacity="0.018" stroke-width="0.7"/>
     </pattern>
+
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#8FA4BC" stroke-opacity="0.07"/>
+    </pattern>
+
     <style>
-      .sans { font-family: 'Segoe UI', 'Inter', Arial, sans-serif; }
-      .mono { font-family: 'Cascadia Code', 'Consolas', 'Courier New', monospace; }
+      .sans { font-family: 'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'Cascadia Code', 'JetBrains Mono', 'Consolas', 'Courier New', monospace; }
+      .pulse { animation: pulse 3.2s ease-in-out infinite; }
+      .pulse-slow { animation: pulse 5s ease-in-out infinite; }
+      .flow { stroke-dasharray: 5 11; animation: flow 3s linear infinite; }
+      .blink { animation: blink 1.5s steps(1) infinite; }
+      .sweep { animation: sweep 9s cubic-bezier(.45,0,.25,1) infinite; }
+      .sweep-slow { animation: sweep 12s cubic-bezier(.45,0,.25,1) infinite; }
+      .s1 { animation-delay: .5s; } .s2 { animation-delay: 1.1s; } .s3 { animation-delay: 1.7s; }
+      .s4 { animation-delay: 2.3s; } .s5 { animation-delay: 2.9s; }
+      @keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+      @keyframes flow { to { stroke-dashoffset: -48; } }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes sweep { 0%, 62% { transform: translateX(-520px); } 92%, 100% { transform: translateX(1320px); } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
     </style>
+    <clipPath id="clip"><rect width="1200" height="290" rx="20"/></clipPath>
   </defs>
 
   <g clip-path="url(#clip)">
-    <rect width="1200" height="452" fill="url(#bg)"/>
-    <rect width="1200" height="452" fill="url(#grid)"/>
-
-    <text class="mono" x="48" y="58" font-size="11.5" letter-spacing="4" fill="#E0608A">[ MAPA DE CAPACIDADES ]</text>
-    <text class="sans" x="48" y="88" font-size="15" fill="#B08A98">Herramientas que ya usé en proyectos, no una lista de deseos.</text>
-    <line x1="48" y1="106" x2="1152" y2="106" stroke="#4A1024"/>
-
-    <g transform="translate(48 126)">
-      <rect width="262" height="282" rx="16" fill="#180509" stroke="#4A1024"/>
-      <rect x="0" y="0" width="262" height="3" rx="1.5" fill="#E0608A"/>
-      <g transform="translate(20 20)" fill="none" stroke="#E0608A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M8 5 L2 12 L8 19 M20 5 L26 12 L20 19 M16 3 L12 21"/>
-      </g>
-      <text class="sans" x="56" y="37" font-size="15" font-weight="700" fill="#FFF3F6">Backend</text>
-      <text class="mono" x="20" y="66" font-size="9.5" letter-spacing="1.6" fill="#7A5060">SERVICIOS Y LÓGICA</text>
-
-      <g transform="translate(20 92)">
-        <circle cx="3" cy="-4" r="2.6" fill="#E0608A"/><text class="sans" x="14" y="0" font-size="13" fill="#DBAEBE">Java 21</text>
-        <circle cx="3" cy="26" r="2.6" fill="#E0608A"/><text class="sans" x="14" y="30" font-size="13" fill="#DBAEBE">Node.js + Express</text>
-        <circle cx="3" cy="56" r="2.6" fill="#E0608A"/><text class="sans" x="14" y="60" font-size="13" fill="#DBAEBE">Python</text>
-        <circle cx="3" cy="86" r="2.6" fill="#E0608A"/><text class="sans" x="14" y="90" font-size="13" fill="#DBAEBE">FastAPI</text>
-        <circle cx="3" cy="116" r="2.6" fill="#E0608A"/><text class="sans" x="14" y="120" font-size="13" fill="#DBAEBE">Django</text>
-        <circle cx="3" cy="146" r="2.6" fill="#E0608A"/><text class="sans" x="14" y="150" font-size="13" fill="#DBAEBE">APIs REST</text>
-      </g>
-      <text class="mono" x="20" y="266" font-size="9.5" fill="#7A5060">contratos · validación · errores</text>
+    
+  <rect width="1200" height="290" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="290" rx="20" fill="url(#brush)"/>
+  <rect width="1200" height="290" rx="20" fill="url(#grid)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="288.5" rx="19.25"
+        fill="none" stroke="url(#edge)" stroke-opacity="0.62" stroke-width="1.5"/>
+  <rect x="5" y="5" width="1190" height="280" rx="16"
+        fill="none" stroke="#FFFFFF" stroke-opacity="0.05"/>
+  <circle cx="18" cy="18" r="4.2" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="1182" cy="18" r="4.2" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="18" cy="272" r="4.2" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="1182" cy="272" r="4.2" fill="url(#screw)" opacity="0.8"/>
+    <text class="mono" x="28" y="44" font-size="10.5" letter-spacing="4" fill="#E3C98F">[ STACK ]</text>
+    <text class="mono" x="1172" y="44" text-anchor="end" font-size="10" fill="#4B5666">lo que uso para llevar una idea a producción</text>
+    
+    <g transform="translate(28 76)">
+      <rect width="272" height="170" rx="14" fill="url(#panel)" stroke="#27313D" stroke-opacity="0.85"/>
+      <rect x="0" y="0" width="272" height="2" fill="url(#goldRail)" opacity="0.5"/>
+      <text class="mono" x="20" y="30" font-size="10" letter-spacing="2.4" fill="#79D2FF">BACKEND</text>
+      <line x1="20" y1="42" x2="252" y2="42" stroke="#1B232D"/>
+      <text class="sans" x="20" y="64" font-size="11" fill="#6E7C8D">Servicios con contrato claro, validación</text><text class="sans" x="20" y="79" font-size="11" fill="#6E7C8D">y manejo de errores.</text>
+      <g transform="translate(0 96)">
+      <rect width="69" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="34.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">Java 21</text>
+    </g><g transform="translate(76 96)">
+      <rect width="69" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="34.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">Node.js</text>
+    </g><g transform="translate(152 96)">
+      <rect width="69" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="34.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">Express</text>
+    </g><g transform="translate(0 126)">
+      <rect width="63" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="31.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">Python</text>
+    </g><g transform="translate(70 126)">
+      <rect width="69" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="34.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">FastAPI</text>
+    </g><g transform="translate(146 126)">
+      <rect width="63" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="31.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">Django</text>
     </g>
-
-    <g transform="translate(326 126)">
-      <rect width="262" height="282" rx="16" fill="#180509" stroke="#4A1024"/>
-      <rect x="0" y="0" width="262" height="3" rx="1.5" fill="#F6C6D2"/>
-      <g transform="translate(20 20)" fill="none" stroke="#F6C6D2" stroke-width="1.8">
-        <ellipse cx="14" cy="7" rx="11" ry="4"/>
-        <path d="M3 7 V21 C3 23.2 7.9 25 14 25 C20.1 25 25 23.2 25 21 V7"/>
-        <path d="M3 14 C3 16.2 7.9 18 14 18 C20.1 18 25 16.2 25 14"/>
-      </g>
-      <text class="sans" x="56" y="37" font-size="15" font-weight="700" fill="#FFF3F6">Datos</text>
-      <text class="mono" x="20" y="66" font-size="9.5" letter-spacing="1.6" fill="#7A5060">MODELO Y PERSISTENCIA</text>
-
-      <g transform="translate(20 92)">
-        <circle cx="3" cy="-4" r="2.6" fill="#F6C6D2"/><text class="sans" x="14" y="0" font-size="13" fill="#DBAEBE">PostgreSQL</text>
-        <circle cx="3" cy="26" r="2.6" fill="#F6C6D2"/><text class="sans" x="14" y="30" font-size="13" fill="#DBAEBE">PostGIS</text>
-        <circle cx="3" cy="56" r="2.6" fill="#F6C6D2"/><text class="sans" x="14" y="60" font-size="13" fill="#DBAEBE">MySQL</text>
-        <circle cx="3" cy="86" r="2.6" fill="#F6C6D2"/><text class="sans" x="14" y="90" font-size="13" fill="#DBAEBE">SQLite</text>
-        <circle cx="3" cy="116" r="2.6" fill="#F6C6D2"/><text class="sans" x="14" y="120" font-size="13" fill="#DBAEBE">MongoDB</text>
-        <circle cx="3" cy="146" r="2.6" fill="#F6C6D2"/><text class="sans" x="14" y="150" font-size="13" fill="#DBAEBE">Redis</text>
-      </g>
-      <text class="mono" x="20" y="266" font-size="9.5" fill="#7A5060">esquema · consultas · integridad</text>
     </g>
-
-    <g transform="translate(604 126)">
-      <rect width="262" height="282" rx="16" fill="#180509" stroke="#4A1024"/>
-      <rect x="0" y="0" width="262" height="3" rx="1.5" fill="#B01E45"/>
-      <g transform="translate(20 20)" fill="none" stroke="#D93363" stroke-width="1.8">
-        <rect x="2" y="4" width="24" height="20" rx="3"/>
-        <line x1="2" y1="10" x2="26" y2="10"/>
-        <circle cx="6.5" cy="7" r="0.9" fill="#D93363"/>
-        <circle cx="9.5" cy="7" r="0.9" fill="#D93363"/>
-      </g>
-      <text class="sans" x="56" y="37" font-size="15" font-weight="700" fill="#FFF3F6">Frontend</text>
-      <text class="mono" x="20" y="66" font-size="9.5" letter-spacing="1.6" fill="#7A5060">INTERFAZ Y EXPERIENCIA</text>
-
-      <g transform="translate(20 92)">
-        <circle cx="3" cy="-4" r="2.6" fill="#D93363"/><text class="sans" x="14" y="0" font-size="13" fill="#DBAEBE">React</text>
-        <circle cx="3" cy="26" r="2.6" fill="#D93363"/><text class="sans" x="14" y="30" font-size="13" fill="#DBAEBE">Vite</text>
-        <circle cx="3" cy="56" r="2.6" fill="#D93363"/><text class="sans" x="14" y="60" font-size="13" fill="#DBAEBE">Tailwind CSS</text>
-        <circle cx="3" cy="86" r="2.6" fill="#D93363"/><text class="sans" x="14" y="90" font-size="13" fill="#DBAEBE">JavaScript ES6+</text>
-        <circle cx="3" cy="116" r="2.6" fill="#D93363"/><text class="sans" x="14" y="120" font-size="13" fill="#DBAEBE">HTML5</text>
-        <circle cx="3" cy="146" r="2.6" fill="#D93363"/><text class="sans" x="14" y="150" font-size="13" fill="#DBAEBE">CSS3</text>
-      </g>
-      <text class="mono" x="20" y="266" font-size="9.5" fill="#7A5060">componentes · estado · accesibilidad</text>
+    <g transform="translate(320 76)">
+      <rect width="272" height="170" rx="14" fill="url(#panel)" stroke="#27313D" stroke-opacity="0.85"/>
+      <rect x="0" y="0" width="272" height="2" fill="url(#goldRail)" opacity="0.5"/>
+      <text class="mono" x="20" y="30" font-size="10" letter-spacing="2.4" fill="#79D2FF">DATOS</text>
+      <line x1="20" y1="42" x2="252" y2="42" stroke="#1B232D"/>
+      <text class="sans" x="20" y="64" font-size="11" fill="#6E7C8D">Esquemas relacionales, integridad y</text><text class="sans" x="20" y="79" font-size="11" fill="#6E7C8D">consultas geoespaciales.</text>
+      <g transform="translate(0 96)">
+      <rect width="88" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="44" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">PostgreSQL</text>
+    </g><g transform="translate(95 96)">
+      <rect width="69" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="34.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">PostGIS</text>
+    </g><g transform="translate(171 96)">
+      <rect width="57" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="28.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">MySQL</text>
+    </g><g transform="translate(0 126)">
+      <rect width="63" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="31.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">SQLite</text>
+    </g><g transform="translate(70 126)">
+      <rect width="69" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="34.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">MongoDB</text>
+    </g><g transform="translate(146 126)">
+      <rect width="57" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="28.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">Redis</text>
     </g>
-
-    <g transform="translate(882 126)">
-      <rect width="262" height="282" rx="16" fill="#180509" stroke="#4A1024"/>
-      <rect x="0" y="0" width="262" height="3" rx="1.5" fill="#8E1338"/>
-      <g transform="translate(20 20)" fill="none" stroke="#B08A98" stroke-width="1.8" stroke-linejoin="round">
-        <path d="M3 8 L14 3 L25 8 V19 L14 24 L3 19 Z"/>
-        <path d="M3 8 L14 13 L25 8"/>
-        <line x1="14" y1="13" x2="14" y2="24"/>
-      </g>
-      <text class="sans" x="56" y="37" font-size="15" font-weight="700" fill="#FFF3F6">Entrega</text>
-      <text class="mono" x="20" y="66" font-size="9.5" letter-spacing="1.6" fill="#7A5060">ENTORNO Y OPERACIÓN</text>
-
-      <g transform="translate(20 92)">
-        <circle cx="3" cy="-4" r="2.6" fill="#B08A98"/><text class="sans" x="14" y="0" font-size="13" fill="#DBAEBE">Docker</text>
-        <circle cx="3" cy="26" r="2.6" fill="#B08A98"/><text class="sans" x="14" y="30" font-size="13" fill="#DBAEBE">GitHub Actions</text>
-        <circle cx="3" cy="56" r="2.6" fill="#B08A98"/><text class="sans" x="14" y="60" font-size="13" fill="#DBAEBE">Git</text>
-        <circle cx="3" cy="86" r="2.6" fill="#B08A98"/><text class="sans" x="14" y="90" font-size="13" fill="#DBAEBE">Linux</text>
-        <circle cx="3" cy="116" r="2.6" fill="#B08A98"/><text class="sans" x="14" y="120" font-size="13" fill="#DBAEBE">Nginx</text>
-        <circle cx="3" cy="146" r="2.6" fill="#B08A98"/><text class="sans" x="14" y="150" font-size="13" fill="#DBAEBE">Bash</text>
-      </g>
-      <text class="mono" x="20" y="266" font-size="9.5" fill="#7A5060">contenedores · CI · despliegue</text>
     </g>
-
-    <line x1="48" y1="428" x2="1152" y2="428" stroke="#4A1024"/>
-    <text class="mono" x="48" y="446" font-size="10" fill="#7A5060">● aplicado en proyectos del perfil</text>
-    <text class="mono" x="1152" y="446" text-anchor="end" font-size="10" fill="#7A5060">DAVID VELEZ · 2026</text>
-    <rect x="300" y="422" width="600" height="1.5" fill="url(#edge)" opacity="0.6"/>
+    <g transform="translate(612 76)">
+      <rect width="272" height="170" rx="14" fill="url(#panel)" stroke="#27313D" stroke-opacity="0.85"/>
+      <rect x="0" y="0" width="272" height="2" fill="url(#goldRail)" opacity="0.5"/>
+      <text class="mono" x="20" y="30" font-size="10" letter-spacing="2.4" fill="#79D2FF">FRONTEND</text>
+      <line x1="20" y1="42" x2="252" y2="42" stroke="#1B232D"/>
+      <text class="sans" x="20" y="64" font-size="11" fill="#6E7C8D">Interfaces que consumen la API sin</text><text class="sans" x="20" y="79" font-size="11" fill="#6E7C8D">duplicar la lógica de negocio.</text>
+      <g transform="translate(0 96)">
+      <rect width="57" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="28.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">React</text>
+    </g><g transform="translate(64 96)">
+      <rect width="51" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="25.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">Vite</text>
+    </g><g transform="translate(122 96)">
+      <rect width="76" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="38" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">Tailwind</text>
+    </g><g transform="translate(0 126)">
+      <rect width="88" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="44" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">JavaScript</text>
+    </g><g transform="translate(95 126)">
+      <rect width="76" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="38" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">HTML/CSS</text>
+    </g>
+    </g>
+    <g transform="translate(904 76)">
+      <rect width="272" height="170" rx="14" fill="url(#panel)" stroke="#27313D" stroke-opacity="0.85"/>
+      <rect x="0" y="0" width="272" height="2" fill="url(#goldRail)" opacity="0.5"/>
+      <text class="mono" x="20" y="30" font-size="10" letter-spacing="2.4" fill="#79D2FF">ENTREGA</text>
+      <line x1="20" y1="42" x2="252" y2="42" stroke="#1B232D"/>
+      <text class="sans" x="20" y="64" font-size="11" fill="#6E7C8D">Entornos reproducibles, CI y</text><text class="sans" x="20" y="79" font-size="11" fill="#6E7C8D">documentación que se puede seguir.</text>
+      <g transform="translate(0 96)">
+      <rect width="63" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="31.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">Docker</text>
+    </g><g transform="translate(70 96)">
+      <rect width="113" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="56.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">GitHub Actions</text>
+    </g><g transform="translate(190 96)">
+      <rect width="45" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="22.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">Git</text>
+    </g><g transform="translate(0 126)">
+      <rect width="57" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="28.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">Linux</text>
+    </g><g transform="translate(64 126)">
+      <rect width="57" height="24" rx="12" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="28.5" y="15.7" text-anchor="middle" font-size="10" fill="#A9B6C6">Nginx</text>
+    </g>
+    </g>
   </g>
-
-  <rect x="0.75" y="0.75" width="1198.5" height="450.5" rx="23.25" fill="none" stroke="#7E1030" stroke-opacity="0.6" stroke-width="1.5"/>
 </svg>

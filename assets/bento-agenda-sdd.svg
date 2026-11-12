@@ -1,45 +1,152 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="470" height="190" viewBox="0 0 470 190" role="img" aria-label="Proyecto Agenda SDD: tareas y compromisos con reglas de negocio deterministas.">
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="218" viewBox="0 0 600 218" role="img" aria-label="Agenda SDD — Node.js 22 · node:sqlite · TypeScript">
+
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#B01E45"/>
-      <stop offset="1" stop-color="#7E1030"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#05070B"/>
+      <stop offset="0.5" stop-color="#0A0E14"/>
+      <stop offset="1" stop-color="#121821"/>
     </linearGradient>
-    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#E0608A" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#E0608A" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#E0608A" stop-opacity="0"/>
+
+    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="0.12">
+      <stop offset="0" stop-color="#6C7888"/>
+      <stop offset="0.14" stop-color="#DCE5EF"/>
+      <stop offset="0.3" stop-color="#FFFFFF"/>
+      <stop offset="0.44" stop-color="#AFBCCB"/>
+      <stop offset="0.58" stop-color="#FFFFFF"/>
+      <stop offset="0.72" stop-color="#C6D1DE"/>
+      <stop offset="0.86" stop-color="#8D99A9"/>
+      <stop offset="1" stop-color="#E4EBF4"/>
     </linearGradient>
-    <clipPath id="clip"><rect width="470" height="190" rx="14"/></clipPath>
+
+    <linearGradient id="chromeSoft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B98A8"/>
+      <stop offset="0.5" stop-color="#EDF3FA"/>
+      <stop offset="1" stop-color="#9AA6B6"/>
+    </linearGradient>
+
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#47535F"/>
+      <stop offset="0.22" stop-color="#C8D3E0"/>
+      <stop offset="0.45" stop-color="#39434F"/>
+      <stop offset="0.68" stop-color="#E9EFF7"/>
+      <stop offset="0.88" stop-color="#4A5663"/>
+      <stop offset="1" stop-color="#8A96A6"/>
+    </linearGradient>
+
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="0.6" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="cyanRail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#79D2FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#79D2FF"/>
+      <stop offset="1" stop-color="#79D2FF" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="goldRail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E3C98F" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#E3C98F"/>
+      <stop offset="1" stop-color="#E3C98F" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.055"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.012"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.028"/>
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#79D2FF" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#79D2FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowGold" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E3C98F" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#E3C98F" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="screw" cx="0.35" cy="0.3" r="0.7">
+      <stop offset="0" stop-color="#F4F8FD"/>
+      <stop offset="0.55" stop-color="#8D99A9"/>
+      <stop offset="1" stop-color="#2A3340"/>
+    </radialGradient>
+
+    <pattern id="brush" width="7" height="7" patternUnits="userSpaceOnUse">
+      <path d="M0 1.5H7" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="0.7"/>
+      <path d="M0 4.5H7" stroke="#FFFFFF" stroke-opacity="0.018" stroke-width="0.7"/>
+    </pattern>
+
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#8FA4BC" stroke-opacity="0.07"/>
+    </pattern>
+
     <style>
-      .shine { animation: sweep 4s linear infinite; }
-      @keyframes sweep { from { transform: translateX(-150px); } to { transform: translateX(470px); } }
+      .sans { font-family: 'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'Cascadia Code', 'JetBrains Mono', 'Consolas', 'Courier New', monospace; }
+      .pulse { animation: pulse 3.2s ease-in-out infinite; }
+      .pulse-slow { animation: pulse 5s ease-in-out infinite; }
+      .flow { stroke-dasharray: 5 11; animation: flow 3s linear infinite; }
+      .blink { animation: blink 1.5s steps(1) infinite; }
+      .sweep { animation: sweep 9s cubic-bezier(.45,0,.25,1) infinite; }
+      .sweep-slow { animation: sweep 12s cubic-bezier(.45,0,.25,1) infinite; }
+      .s1 { animation-delay: .5s; } .s2 { animation-delay: 1.1s; } .s3 { animation-delay: 1.7s; }
+      .s4 { animation-delay: 2.3s; } .s5 { animation-delay: 2.9s; }
+      @keyframes pulse { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+      @keyframes flow { to { stroke-dashoffset: -48; } }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes sweep { 0%, 62% { transform: translateX(-520px); } 92%, 100% { transform: translateX(1320px); } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
     </style>
+    <clipPath id="clip"><rect width="600" height="218" rx="20"/></clipPath>
   </defs>
-  <rect width="470" height="190" rx="14" fill="#180509"/>
-  <g transform="translate(406 96) scale(1.25)" opacity="0.22">
-    <rect x="-34" y="-40" width="68" height="80" rx="10" fill="none" stroke="#E0608A" stroke-width="1.6"/>
-    <line x1="-34" y1="-26" x2="34" y2="-26" stroke="#E0608A" stroke-width="1.6"/>
-    <line x1="-34" y1="-10" x2="34" y2="-10" stroke="#E0608A" stroke-width="1.2"/>
-    <line x1="-34" y1="6" x2="34" y2="6" stroke="#E0608A" stroke-width="1.2"/>
-    <line x1="-34" y1="22" x2="18" y2="22" stroke="#E0608A" stroke-width="1.2"/>
-    <circle cx="-26" cy="-19" r="2.2" fill="#E0608A"/>
-    <circle cx="-19" cy="-19" r="2.2" fill="#E0608A"/>
+
+  <g clip-path="url(#clip)">
+    
+  <rect width="600" height="218" rx="20" fill="url(#bg)"/>
+  <rect width="600" height="218" rx="20" fill="url(#brush)"/>
+  <rect width="600" height="218" rx="20" fill="url(#grid)"/>
+  <rect x="0.75" y="0.75" width="598.5" height="216.5" rx="19.25"
+        fill="none" stroke="url(#edge)" stroke-opacity="0.62" stroke-width="1.5"/>
+  <rect x="5" y="5" width="590" height="208" rx="16"
+        fill="none" stroke="#FFFFFF" stroke-opacity="0.05"/>
+  <circle cx="18" cy="18" r="4.2" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="582" cy="18" r="4.2" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="18" cy="200" r="4.2" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="582" cy="200" r="4.2" fill="url(#screw)" opacity="0.8"/>
+    <ellipse cx="560" cy="20" rx="190" ry="130" fill="url(#glowCyan)" opacity="0.5"/>
+
+    <text class="mono" x="28" y="38" font-size="9.5" letter-spacing="2.8" fill="#79E2A6">PROYECTO 04</text>
+    <g transform="translate(536 22)">
+      <circle cx="12" cy="12" r="12" fill="#0D131A" stroke="#27313D" stroke-opacity="0.9"/>
+      <text class="mono" x="12" y="17" text-anchor="middle" font-size="12" fill="#C3CEDA">↗</text>
+    </g>
+
+    <text class="sans" x="24" y="82" font-size="30" font-weight="800" letter-spacing="-0.9" fill="url(#chromeSoft)">Agenda SDD</text>
+    <text class="sans" x="28" y="112" font-size="12.5" fill="#A9B6C6">Reglas de negocio deterministas sobre tareas y compromisos.</text>
+    <text class="sans" x="28" y="132" font-size="11.5" fill="#6E7C8D">Node.js 22 · node:sqlite · TypeScript</text>
+
+    <g transform="translate(28 146)">
+      <rect width="103" height="22" rx="11" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="51.5" y="14.7" text-anchor="middle" font-size="9.5" fill="#C3CEDA">RN-01 → RN-05</text>
+    </g><g transform="translate(138 146)">
+      <rect width="55" height="22" rx="11" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="27.5" y="14.7" text-anchor="middle" font-size="9.5" fill="#C3CEDA">Capas</text>
+    </g><g transform="translate(200 146)">
+      <rect width="73" height="22" rx="11" fill="#0E141C" stroke="#27313D" stroke-opacity="1"/>
+      <text class="mono" x="36.5" y="14.7" text-anchor="middle" font-size="9.5" fill="#C3CEDA">Glass UI</text>
+    </g>
+
+    <line x1="28" y1="184" x2="572" y2="184" stroke="#1B232D"/>
+    <circle cx="32" cy="200" r="3.2" fill="#79E2A6"/>
+    <text class="mono" x="44" y="203.5" font-size="9.5" fill="#C3CEDA">10/10 verificaciones · 0 solapamientos</text>
+
+    
+  <g clip-path="url(#clip)" transform="rotate(-16 300 109)">
+    <rect class="sweep" x="-300" y="-160" width="230" height="558" fill="url(#sheen)"/>
   </g>
-  <rect width="470" height="190" rx="14" fill="none" stroke="url(#g)" stroke-width="1.5"/>
-  <g clip-path="url(#clip)"><rect class="shine" x="0" y="0" width="150" height="3" fill="url(#shine)"/></g>
-
-  <rect x="24" y="24" width="52" height="52" rx="14" fill="#2A0A14" stroke="#B01E45" stroke-opacity="0.6"/>
-  <text x="50" y="57" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#E0608A">SDD</text>
-  <text x="92" y="47" font-family="'Segoe UI',Arial,sans-serif" font-size="19" font-weight="700" fill="#FFF3F6">Agenda SDD — Tareas</text>
-  <text x="92" y="70" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#B08A98">agendalili</text>
-
-  <text x="24" y="114" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#DBAEBE">Reglas de negocio deterministas sobre SQLite,</text>
-  <text x="24" y="134" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#DBAEBE">contratos TypeScript y UI glassmorphism.</text>
-
-  <rect x="24" y="152" width="78" height="24" rx="12" fill="#2A0A14" stroke="#4A1024"/>
-  <text x="63" y="168" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#B08A98">Node.js</text>
-  <rect x="110" y="152" width="62" height="24" rx="12" fill="#2A0A14" stroke="#4A1024"/>
-  <text x="141" y="168" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#B08A98">SQLite</text>
-  <rect x="180" y="152" width="86" height="24" rx="12" fill="#2A0A14" stroke="#4A1024"/>
-  <text x="223" y="168" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#B08A98">TypeScript</text>
+  </g>
 </svg>
