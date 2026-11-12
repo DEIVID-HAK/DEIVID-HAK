@@ -129,39 +129,39 @@
   <rect width="1200" height="290" rx="20" fill="url(#bg)"/>
   <rect width="1200" height="290" rx="20" fill="url(#brush)"/>
   <rect width="1200" height="290" rx="20" fill="url(#grid)"/>
-  <rect x="0.75" y="0.75" width="1198.5" height="288.5" rx="19.25"
-        fill="none" stroke="url(#edge)" stroke-opacity="0.62" stroke-width="1.5"/>
-  <rect x="5" y="5" width="1190" height="280" rx="16"
-        fill="none" stroke="#FFFFFF" stroke-opacity="0.05"/>
+  <rect x="0.6" y="0.6" width="1198.8" height="288.8" rx="19.4"
+        fill="none" stroke="url(#edge)" stroke-opacity="0.5" stroke-width="1"/>
+  <rect x="6" y="6" width="1188" height="278" rx="15"
+        fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/>
   
-  <rect x="3.25" y="3.25" width="1193.5" height="283.5" rx="16.75" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.55" stroke-width="1.1"/>
-  <rect class="gold-breathe" x="3.25" y="3.25" width="1193.5" height="283.5" rx="16.75" fill="none" stroke="#E3C98F" stroke-width="1.6"/>
-  <rect class="gold-halo" x="3.25" y="3.25" width="1193.5" height="283.5" rx="16.75" fill="none" stroke="#E3C98F" stroke-width="10" stroke-opacity="0.3"/>
-  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="283.5" rx="16.75" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="11.0" stroke-opacity="0.16" stroke-dasharray="30 70" style="animation-duration:9s"/>
-  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="283.5" rx="16.75" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="3.8" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:9s"/>
-  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="283.5" rx="16.75" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="2.3" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:9s;animation-delay:-3.60s"/>
-  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="283.5" rx="16.75" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:9s;animation-delay:-6.30s"/>
-  <circle cx="18" cy="18" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse"/>
-  <circle cx="1182" cy="18" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse s2"/>
-  <circle cx="18" cy="272" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse s3"/>
-  <circle cx="1182" cy="272" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse s4"/>
-  <circle cx="18" cy="18" r="4.2" fill="url(#screw)" opacity="0.8"/>
-  <circle cx="1182" cy="18" r="4.2" fill="url(#screw)" opacity="0.8"/>
-  <circle cx="18" cy="272" r="4.2" fill="url(#screw)" opacity="0.8"/>
-  <circle cx="1182" cy="272" r="4.2" fill="url(#screw)" opacity="0.8"/>
+  <rect x="3.25" y="3.25" width="1193.5" height="283.5" rx="16.75" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.5" stroke-width="0.9"/>
+  <rect class="gold-breathe" x="3.25" y="3.25" width="1193.5" height="283.5" rx="16.75" fill="none" stroke="#E3C98F" stroke-width="1"/>
+  <rect class="gold-halo" x="3.25" y="3.25" width="1193.5" height="283.5" rx="16.75" fill="none" stroke="#E3C98F" stroke-width="6" stroke-opacity="0.22"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="283.5" rx="16.75" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="4.2" stroke-opacity="0.14" stroke-dasharray="30 70" style="animation-duration:9s"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="283.5" rx="16.75" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:9s"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="283.5" rx="16.75" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:9s;animation-delay:-3.60s"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="283.5" rx="16.75" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:9s;animation-delay:-6.30s"/>
+  <circle cx="18" cy="18" r="6.5" fill="none" stroke="#E3C98F" stroke-width="1" stroke-opacity="0.5" class="pulse"/>
+  <circle cx="1182" cy="18" r="6.5" fill="none" stroke="#E3C98F" stroke-width="1" stroke-opacity="0.5" class="pulse s2"/>
+  <circle cx="18" cy="272" r="6.5" fill="none" stroke="#E3C98F" stroke-width="1" stroke-opacity="0.5" class="pulse s3"/>
+  <circle cx="1182" cy="272" r="6.5" fill="none" stroke="#E3C98F" stroke-width="1" stroke-opacity="0.5" class="pulse s4"/>
+  <circle cx="18" cy="18" r="3.6" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="1182" cy="18" r="3.6" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="18" cy="272" r="3.6" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="1182" cy="272" r="3.6" fill="url(#screw)" opacity="0.8"/>
     <text class="mono" x="28" y="44" font-size="10.5" letter-spacing="4" fill="#E3C98F">[ STACK ]</text>
     <text class="mono" x="1172" y="44" text-anchor="end" font-size="10" fill="#4B5666">lo que uso para llevar una idea a producción</text>
     
     <g transform="translate(28 76)">
       <rect width="272" height="170" rx="14" fill="url(#panel)" stroke="#27313D" stroke-opacity="0.85"/>
       
-  <rect x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.55" stroke-width="1.1"/>
-  <rect class="gold-breathe" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="#E3C98F" stroke-width="1.6"/>
+  <rect x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.5" stroke-width="0.9"/>
+  <rect class="gold-breathe" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="#E3C98F" stroke-width="1"/>
   
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="11.0" stroke-opacity="0.16" stroke-dasharray="30 70" style="animation-duration:9s"/>
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="3.8" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:9s"/>
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="2.3" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:9s;animation-delay:-3.60s"/>
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:9s;animation-delay:-6.30s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="2.7" stroke-opacity="0.14" stroke-dasharray="30 70" style="animation-duration:9s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:9s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:9s;animation-delay:-3.60s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:9s;animation-delay:-6.30s"/>
       <rect x="0" y="0" width="272" height="2" fill="url(#goldRail)" opacity="0.5"/>
       <text class="mono" x="20" y="30" font-size="10" letter-spacing="2.4" fill="#79D2FF">BACKEND</text>
       <line x1="20" y1="42" x2="252" y2="42" stroke="#1B232D"/>
@@ -189,13 +189,13 @@
     <g transform="translate(320 76)">
       <rect width="272" height="170" rx="14" fill="url(#panel)" stroke="#27313D" stroke-opacity="0.85"/>
       
-  <rect x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.55" stroke-width="1.1"/>
-  <rect class="gold-breathe" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="#E3C98F" stroke-width="1.6"/>
+  <rect x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.5" stroke-width="0.9"/>
+  <rect class="gold-breathe" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="#E3C98F" stroke-width="1"/>
   
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="11.0" stroke-opacity="0.16" stroke-dasharray="30 70" style="animation-duration:10s"/>
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="3.8" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:10s"/>
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="2.3" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:10s;animation-delay:-4.00s"/>
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:10s;animation-delay:-7.00s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="2.7" stroke-opacity="0.14" stroke-dasharray="30 70" style="animation-duration:10s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:10s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:10s;animation-delay:-4.00s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:10s;animation-delay:-7.00s"/>
       <rect x="0" y="0" width="272" height="2" fill="url(#goldRail)" opacity="0.5"/>
       <text class="mono" x="20" y="30" font-size="10" letter-spacing="2.4" fill="#79D2FF">DATOS</text>
       <line x1="20" y1="42" x2="252" y2="42" stroke="#1B232D"/>
@@ -223,13 +223,13 @@
     <g transform="translate(612 76)">
       <rect width="272" height="170" rx="14" fill="url(#panel)" stroke="#27313D" stroke-opacity="0.85"/>
       
-  <rect x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.55" stroke-width="1.1"/>
-  <rect class="gold-breathe" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="#E3C98F" stroke-width="1.6"/>
+  <rect x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.5" stroke-width="0.9"/>
+  <rect class="gold-breathe" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="#E3C98F" stroke-width="1"/>
   
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="11.0" stroke-opacity="0.16" stroke-dasharray="30 70" style="animation-duration:11s"/>
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="3.8" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:11s"/>
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="2.3" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:11s;animation-delay:-4.40s"/>
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:11s;animation-delay:-7.70s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="2.7" stroke-opacity="0.14" stroke-dasharray="30 70" style="animation-duration:11s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:11s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:11s;animation-delay:-4.40s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:11s;animation-delay:-7.70s"/>
       <rect x="0" y="0" width="272" height="2" fill="url(#goldRail)" opacity="0.5"/>
       <text class="mono" x="20" y="30" font-size="10" letter-spacing="2.4" fill="#79D2FF">FRONTEND</text>
       <line x1="20" y1="42" x2="252" y2="42" stroke="#1B232D"/>
@@ -254,13 +254,13 @@
     <g transform="translate(904 76)">
       <rect width="272" height="170" rx="14" fill="url(#panel)" stroke="#27313D" stroke-opacity="0.85"/>
       
-  <rect x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.55" stroke-width="1.1"/>
-  <rect class="gold-breathe" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="#E3C98F" stroke-width="1.6"/>
+  <rect x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.5" stroke-width="0.9"/>
+  <rect class="gold-breathe" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" stroke="#E3C98F" stroke-width="1"/>
   
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="11.0" stroke-opacity="0.16" stroke-dasharray="30 70" style="animation-duration:12s"/>
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="3.8" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:12s"/>
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="2.3" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:12s;animation-delay:-4.80s"/>
-  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:12s;animation-delay:-8.40s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="2.7" stroke-opacity="0.14" stroke-dasharray="30 70" style="animation-duration:12s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:12s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:12s;animation-delay:-4.80s"/>
+  <rect class="gold-run" x="1.5" y="1.5" width="269" height="167" rx="12.5" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:12s;animation-delay:-8.40s"/>
       <rect x="0" y="0" width="272" height="2" fill="url(#goldRail)" opacity="0.5"/>
       <text class="mono" x="20" y="30" font-size="10" letter-spacing="2.4" fill="#79D2FF">ENTREGA</text>
       <line x1="20" y1="42" x2="252" y2="42" stroke="#1B232D"/>

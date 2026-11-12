@@ -129,26 +129,26 @@
   <rect width="600" height="218" rx="20" fill="url(#bg)"/>
   <rect width="600" height="218" rx="20" fill="url(#brush)"/>
   <rect width="600" height="218" rx="20" fill="url(#grid)"/>
-  <rect x="0.75" y="0.75" width="598.5" height="216.5" rx="19.25"
-        fill="none" stroke="url(#edge)" stroke-opacity="0.62" stroke-width="1.5"/>
-  <rect x="5" y="5" width="590" height="208" rx="16"
-        fill="none" stroke="#FFFFFF" stroke-opacity="0.05"/>
+  <rect x="0.6" y="0.6" width="598.8" height="216.8" rx="19.4"
+        fill="none" stroke="url(#edge)" stroke-opacity="0.5" stroke-width="1"/>
+  <rect x="6" y="6" width="588" height="206" rx="15"
+        fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/>
   
-  <rect x="3.25" y="3.25" width="593.5" height="211.5" rx="16.75" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.55" stroke-width="1.1"/>
-  <rect class="gold-breathe" x="3.25" y="3.25" width="593.5" height="211.5" rx="16.75" fill="none" stroke="#E3C98F" stroke-width="1.6"/>
-  <rect class="gold-halo" x="3.25" y="3.25" width="593.5" height="211.5" rx="16.75" fill="none" stroke="#E3C98F" stroke-width="10" stroke-opacity="0.3"/>
-  <rect class="gold-run" x="3.25" y="3.25" width="593.5" height="211.5" rx="16.75" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="11.0" stroke-opacity="0.16" stroke-dasharray="30 70" style="animation-duration:9s"/>
-  <rect class="gold-run" x="3.25" y="3.25" width="593.5" height="211.5" rx="16.75" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="3.8" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:9s"/>
-  <rect class="gold-run" x="3.25" y="3.25" width="593.5" height="211.5" rx="16.75" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="2.3" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:9s;animation-delay:-3.60s"/>
-  <rect class="gold-run" x="3.25" y="3.25" width="593.5" height="211.5" rx="16.75" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:9s;animation-delay:-6.30s"/>
-  <circle cx="18" cy="18" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse"/>
-  <circle cx="582" cy="18" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse s2"/>
-  <circle cx="18" cy="200" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse s3"/>
-  <circle cx="582" cy="200" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse s4"/>
-  <circle cx="18" cy="18" r="4.2" fill="url(#screw)" opacity="0.8"/>
-  <circle cx="582" cy="18" r="4.2" fill="url(#screw)" opacity="0.8"/>
-  <circle cx="18" cy="200" r="4.2" fill="url(#screw)" opacity="0.8"/>
-  <circle cx="582" cy="200" r="4.2" fill="url(#screw)" opacity="0.8"/>
+  <rect x="3.25" y="3.25" width="593.5" height="211.5" rx="16.75" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.5" stroke-width="0.9"/>
+  <rect class="gold-breathe" x="3.25" y="3.25" width="593.5" height="211.5" rx="16.75" fill="none" stroke="#E3C98F" stroke-width="1"/>
+  <rect class="gold-halo" x="3.25" y="3.25" width="593.5" height="211.5" rx="16.75" fill="none" stroke="#E3C98F" stroke-width="6" stroke-opacity="0.22"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="593.5" height="211.5" rx="16.75" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="4.2" stroke-opacity="0.14" stroke-dasharray="30 70" style="animation-duration:9s"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="593.5" height="211.5" rx="16.75" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:9s"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="593.5" height="211.5" rx="16.75" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:9s;animation-delay:-3.60s"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="593.5" height="211.5" rx="16.75" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:9s;animation-delay:-6.30s"/>
+  <circle cx="18" cy="18" r="6.5" fill="none" stroke="#E3C98F" stroke-width="1" stroke-opacity="0.5" class="pulse"/>
+  <circle cx="582" cy="18" r="6.5" fill="none" stroke="#E3C98F" stroke-width="1" stroke-opacity="0.5" class="pulse s2"/>
+  <circle cx="18" cy="200" r="6.5" fill="none" stroke="#E3C98F" stroke-width="1" stroke-opacity="0.5" class="pulse s3"/>
+  <circle cx="582" cy="200" r="6.5" fill="none" stroke="#E3C98F" stroke-width="1" stroke-opacity="0.5" class="pulse s4"/>
+  <circle cx="18" cy="18" r="3.6" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="582" cy="18" r="3.6" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="18" cy="200" r="3.6" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="582" cy="200" r="3.6" fill="url(#screw)" opacity="0.8"/>
     <ellipse cx="560" cy="20" rx="190" ry="130" fill="url(#glowGold)" opacity="0.5"/>
 
     <text class="mono" x="28" y="38" font-size="9.5" letter-spacing="2.8" fill="#E3C98F">PROYECTO 02</text>

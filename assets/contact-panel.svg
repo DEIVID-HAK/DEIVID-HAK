@@ -129,26 +129,26 @@
   <rect width="1200" height="186" rx="20" fill="url(#bg)"/>
   <rect width="1200" height="186" rx="20" fill="url(#brush)"/>
   <rect width="1200" height="186" rx="20" fill="url(#grid)"/>
-  <rect x="0.75" y="0.75" width="1198.5" height="184.5" rx="19.25"
-        fill="none" stroke="url(#edge)" stroke-opacity="0.62" stroke-width="1.5"/>
-  <rect x="5" y="5" width="1190" height="176" rx="16"
-        fill="none" stroke="#FFFFFF" stroke-opacity="0.05"/>
+  <rect x="0.6" y="0.6" width="1198.8" height="184.8" rx="19.4"
+        fill="none" stroke="url(#edge)" stroke-opacity="0.5" stroke-width="1"/>
+  <rect x="6" y="6" width="1188" height="174" rx="15"
+        fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/>
   
-  <rect x="3.25" y="3.25" width="1193.5" height="179.5" rx="16.75" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.55" stroke-width="1.1"/>
-  <rect class="gold-breathe" x="3.25" y="3.25" width="1193.5" height="179.5" rx="16.75" fill="none" stroke="#E3C98F" stroke-width="1.6"/>
-  <rect class="gold-halo" x="3.25" y="3.25" width="1193.5" height="179.5" rx="16.75" fill="none" stroke="#E3C98F" stroke-width="10" stroke-opacity="0.3"/>
-  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="179.5" rx="16.75" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="11.0" stroke-opacity="0.16" stroke-dasharray="30 70" style="animation-duration:9s"/>
-  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="179.5" rx="16.75" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="3.8" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:9s"/>
-  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="179.5" rx="16.75" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="2.3" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:9s;animation-delay:-3.60s"/>
-  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="179.5" rx="16.75" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:9s;animation-delay:-6.30s"/>
-  <circle cx="18" cy="18" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse"/>
-  <circle cx="1182" cy="18" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse s2"/>
-  <circle cx="18" cy="168" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse s3"/>
-  <circle cx="1182" cy="168" r="7" fill="none" stroke="#E3C98F" stroke-width="1.1" stroke-opacity="0.55" class="pulse s4"/>
-  <circle cx="18" cy="18" r="4.2" fill="url(#screw)" opacity="0.8"/>
-  <circle cx="1182" cy="18" r="4.2" fill="url(#screw)" opacity="0.8"/>
-  <circle cx="18" cy="168" r="4.2" fill="url(#screw)" opacity="0.8"/>
-  <circle cx="1182" cy="168" r="4.2" fill="url(#screw)" opacity="0.8"/>
+  <rect x="3.25" y="3.25" width="1193.5" height="179.5" rx="16.75" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.5" stroke-width="0.9"/>
+  <rect class="gold-breathe" x="3.25" y="3.25" width="1193.5" height="179.5" rx="16.75" fill="none" stroke="#E3C98F" stroke-width="1"/>
+  <rect class="gold-halo" x="3.25" y="3.25" width="1193.5" height="179.5" rx="16.75" fill="none" stroke="#E3C98F" stroke-width="6" stroke-opacity="0.22"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="179.5" rx="16.75" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="4.2" stroke-opacity="0.14" stroke-dasharray="30 70" style="animation-duration:9s"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="179.5" rx="16.75" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="1.9" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:9s"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="179.5" rx="16.75" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:9s;animation-delay:-3.60s"/>
+  <rect class="gold-run" x="3.25" y="3.25" width="1193.5" height="179.5" rx="16.75" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:9s;animation-delay:-6.30s"/>
+  <circle cx="18" cy="18" r="6.5" fill="none" stroke="#E3C98F" stroke-width="1" stroke-opacity="0.5" class="pulse"/>
+  <circle cx="1182" cy="18" r="6.5" fill="none" stroke="#E3C98F" stroke-width="1" stroke-opacity="0.5" class="pulse s2"/>
+  <circle cx="18" cy="168" r="6.5" fill="none" stroke="#E3C98F" stroke-width="1" stroke-opacity="0.5" class="pulse s3"/>
+  <circle cx="1182" cy="168" r="6.5" fill="none" stroke="#E3C98F" stroke-width="1" stroke-opacity="0.5" class="pulse s4"/>
+  <circle cx="18" cy="18" r="3.6" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="1182" cy="18" r="3.6" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="18" cy="168" r="3.6" fill="url(#screw)" opacity="0.8"/>
+  <circle cx="1182" cy="168" r="3.6" fill="url(#screw)" opacity="0.8"/>
     <ellipse cx="1060" cy="40" rx="240" ry="150" fill="url(#glowCyan)" opacity="0.35"/>
 
     <text class="mono" x="52" y="52" font-size="10" letter-spacing="3.4" fill="#E3C98F">[ CONTACTO ]</text>
@@ -166,13 +166,13 @@
     <g transform="translate(760 44)">
       <rect width="380" height="98" rx="12" fill="url(#panel)" stroke="#27313D" stroke-opacity="0.9"/>
       
-  <rect x="1" y="1" width="378" height="96" rx="11" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.55" stroke-width="1.1"/>
-  <rect class="gold-breathe" x="1" y="1" width="378" height="96" rx="11" fill="none" stroke="#E3C98F" stroke-width="1.6"/>
+  <rect x="1" y="1" width="378" height="96" rx="11" fill="none" stroke="url(#goldEdge)" stroke-opacity="0.5" stroke-width="0.9"/>
+  <rect class="gold-breathe" x="1" y="1" width="378" height="96" rx="11" fill="none" stroke="#E3C98F" stroke-width="1"/>
   
-  <rect class="gold-run" x="1" y="1" width="378" height="96" rx="11" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="11.0" stroke-opacity="0.16" stroke-dasharray="30 70" style="animation-duration:7s"/>
-  <rect class="gold-run" x="1" y="1" width="378" height="96" rx="11" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="3.8" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:7s"/>
-  <rect class="gold-run" x="1" y="1" width="378" height="96" rx="11" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="2.3" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:7s;animation-delay:-2.80s"/>
-  <rect class="gold-run" x="1" y="1" width="378" height="96" rx="11" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:7s;animation-delay:-4.90s"/>
+  <rect class="gold-run" x="1" y="1" width="378" height="96" rx="11" fill="none" pathLength="100" stroke="#F4DFAC" stroke-width="2.7" stroke-opacity="0.14" stroke-dasharray="30 70" style="animation-duration:7s"/>
+  <rect class="gold-run" x="1" y="1" width="378" height="96" rx="11" fill="none" pathLength="100" stroke="#EBD29B" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="30 70" style="animation-duration:7s"/>
+  <rect class="gold-run" x="1" y="1" width="378" height="96" rx="11" fill="none" pathLength="100" stroke="#FFF8E6" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="4 96" style="animation-duration:7s;animation-delay:-2.80s"/>
+  <rect class="gold-run" x="1" y="1" width="378" height="96" rx="11" fill="none" pathLength="100" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:7s;animation-delay:-4.90s"/>
       <circle cx="26" cy="30" r="4.5" fill="#79E2A6" class="pulse"/>
       <text class="mono" x="40" y="34" font-size="10.5" fill="#CFEEDF" letter-spacing="1.2">DISPONIBLE PARA TRABAJAR</text>
       <text class="sans" x="26" y="60" font-size="11.5" fill="#A9B6C6">Respuesta en menos de 24 h · español / inglés técnico.</text>
