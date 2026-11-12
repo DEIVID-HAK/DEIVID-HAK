@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/profile-card.svg" width="100%" alt="David Vélez — desarrollador full stack. Backend, APIs y datos. Medellín, Colombia." />
+  <img src="assets/profile-hero.svg" width="100%" alt="DEIVID-HAK — desarrollador full stack. Backend, APIs y datos. Medellín, Colombia." />
 
   <br>
 
@@ -176,7 +176,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 <br>
 
-<img src="assets/footer-metal.svg" width="100%" alt="David Vélez — Medellín, Colombia. Disponible para prácticas y roles junior." />
+<img src="assets/footer-id.svg" width="100%" alt="DEIVID-HAK — Medellín, Colombia. Disponible para prácticas y roles junior." />
 
 <details>
   <summary><b>English summary</b></summary>
