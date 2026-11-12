@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/profile-hero.svg" width="100%" alt="DEIVID-HAK — desarrollador full stack. Backend, APIs y datos. Medellín, Colombia." />
+  <img src="assets/profile-hero.svg" width="100%" alt="DAVID VELEZ — desarrollador full stack. Backend, APIs y datos. Medellín, Colombia." />
 
   <br>
 
