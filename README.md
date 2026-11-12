@@ -122,7 +122,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 ### `04` · Trayectoria
 
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/journey-map.svg?v=1" width="100%" alt="Trayectoria: fundamentos en el SENA, productos reales, calidad y entrega, y siguiente paso." />
+<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/trajectory.svg?v=1" width="100%" alt="Trayectoria: fundamentos en el SENA, productos reales, calidad y entrega, y siguiente paso." />
 
 <br>
 
@@ -151,10 +151,16 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/output/github-snake.svg?v=8" width="92%" alt="Gráfico de contribuciones"/>
+  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/output/snake-metal.svg?v=1" width="92%" alt="Serpiente de contribuciones en cromo y cian, con comida dorada dispersa." />
 </p>
 
-<p align="center"><sub>El gráfico se regenera todos los días con un workflow de GitHub Actions sobre la rama <code>output</code>.</sub></p>
+<br>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/output/snake-gold.svg?v=1" width="92%" alt="Segunda serpiente de contribuciones en oro, con comida verde dispersa." />
+</p>
+
+<p align="center"><sub>Dos serpientes y su comida se regeneran todos los días con un workflow de GitHub Actions sobre la rama <code>output</code>.</sub></p>
 
 ---
 
