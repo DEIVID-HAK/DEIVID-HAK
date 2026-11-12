@@ -24,12 +24,10 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake-metal.svg?palette=github-dark&color_snake=#79D2FF&color_dots=#121821,#1B2634,#2C3B4D,#4A6076,#C3CEDA
-            dist/snake-gold.svg?palette=github-dark&color_snake=#E3C98F&color_dots=#1A1408,#2A2214,#3B2E18,#5C4726,#F0DCA8
 
-      - name: add food to the snakes
+      - name: add food to the snake
         run: |
           node .github/scripts/snake-food.mjs dist/snake-metal.svg '#E3C98F' 0.3
-          node .github/scripts/snake-food.mjs dist/snake-gold.svg '#79E2A6' 0.3
 
       - name: publish to output branch
         uses: crazy-max/ghaction-github-pages@v4

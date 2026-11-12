@@ -154,13 +154,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
   <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/output/snake-metal.svg?v=1" width="92%" alt="Serpiente de contribuciones en cromo y cian, con comida dorada dispersa." />
 </p>
 
-<br>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/output/snake-gold.svg?v=1" width="92%" alt="Segunda serpiente de contribuciones en oro, con comida verde dispersa." />
-</p>
-
-<p align="center"><sub>Dos serpientes y su comida se regeneran todos los días con un workflow de GitHub Actions sobre la rama <code>output</code>.</sub></p>
+<p align="center"><sub>La serpiente y su comida se regeneran todos los días con un workflow de GitHub Actions sobre la rama <code>output</code>.</sub></p>
 
 ---
 
@@ -168,7 +162,7 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 ### `06` · Contacto
 
-<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/contact-panel.svg?v=1" width="100%" alt="Contacto: correo, GitHub, YouTube, ubicación y disponibilidad." />
+<img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/contact-metal.svg?v=1" width="100%" alt="Contacto: correo, GitHub, YouTube, ubicación y disponibilidad." />
 
 <br>
 
