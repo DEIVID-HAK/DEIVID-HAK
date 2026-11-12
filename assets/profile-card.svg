@@ -453,8 +453,9 @@
   <path class="gold-run" d="M 358 92 v 40 a 20 6.5 0 0 0 40 0 v -40" pathLength="100" fill="none" stroke="#FFFFFF" stroke-width="0.6" stroke-linecap="round" stroke-dasharray="1 99" style="animation-duration:6s;animation-delay:-4.20s"/>
     <ellipse cx="378" cy="92" rx="20" ry="6.5" fill="#0D141C" stroke="#E3C98F" stroke-opacity="0.5" stroke-width="0.9"/>
     <path d="M 358 107 a 20 6.5 0 0 0 40 0" fill="none" stroke="#E3C98F" stroke-opacity="0.28"/>
-    <path d="M 358 121 a 20 6.5 0 0 0 40 0" fill="none" stroke="#E3C98F" stroke-opacity="0.2"/>
+    <path d="M 358 126 a 20 6.5 0 0 0 40 0" fill="none" stroke="#E3C98F" stroke-opacity="0.2"/>
     <circle cx="378" cy="107" r="1.8" fill="#79D2FF" class="pulse"/>
+    <text class="mono" x="378" y="119" text-anchor="middle" font-size="10.5" font-weight="700" letter-spacing="1" fill="#E9EFF7" opacity="0.92">DB</text>
 
     <text class="mono" x="74" y="184" text-anchor="middle" font-size="10.5" letter-spacing="2.2" fill="#79D2FF">FRONTEND</text>
     <text class="mono" x="74" y="201" text-anchor="middle" font-size="8.5" fill="#6E7C8D">React · Vite</text>

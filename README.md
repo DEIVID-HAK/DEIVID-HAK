@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/profile.svg?v=1" width="100%" alt="David Vélez — desarrollador full stack. Backend, APIs y datos. Medellín, Colombia." />
+  <img src="https://raw.githubusercontent.com/DAVIDVLEZ-DEVELOPER/DAVIDVLEZ-DEVELOPER/main/assets/profile-card.svg?v=1" width="100%" alt="David Vélez — desarrollador full stack. Backend, APIs y datos. Medellín, Colombia." />
 
   <br>
 
