@@ -89,6 +89,21 @@ Cuatro sistemas, cuatro problemas distintos. Cada tarjeta abre el repositorio co
 
 </details>
 
+<br>
+
+**Otros repositorios**
+
+| Proyecto | Qué es | Stack |
+| :--- | :--- | :--- |
+| **[Kanjora](https://github.com/DEIVID-HAK/kanjora)** | Plataforma de trueque de conocimiento: programadores que necesitan inglés técnico y bilingües que quieren aprender desarrollo, con rutas guiadas y suscripciones. | `Java` · `Go` · `React` · `PostgreSQL` · `Docker` |
+| **[Liquor POS](https://github.com/DEIVID-HAK/proyecto-lico)** | Punto de venta para licorera con Clean Architecture, inventario, ventas y auditoría. | `FastAPI` · `Python` · `React` · `TypeScript` · `SQLite` · `Docker` |
+| **[Creación de API](https://github.com/DEIVID-HAK/creacion-de-api)** | API REST de tareas con PostgreSQL, Docker Compose y laboratorio de alta disponibilidad con Nginx. | `Node.js` · `Express` · `PostgreSQL` · `Docker` |
+| **[CRUD MERN](https://github.com/DEIVID-HAK/crud-mern)** | CRUD completo con arquitectura MERN y API REST. | `Node.js` · `Express` · `MongoDB` |
+| **[Pizza Planet](https://github.com/DEIVID-HAK/pizza-planet-taller-promesas)** | Taller educativo de Promesas en JavaScript, consumo de APIs y Tailwind CSS. | `JavaScript` · `Tailwind CSS` |
+| **[Tienda Gamer](https://github.com/DEIVID-HAK/tienda-gamers)** | Sitio de tienda responsive construido sobre la plantilla Helios de HTML5 UP. | `HTML5` · `SCSS` · `JavaScript` |
+
+<p align="center"><sub>También colaboro en proyectos de otros equipos: <a href="https://github.com/DEIVID-HAK/RestoOs">RestoOs</a> (sistema de restaurante en .NET) y <a href="https://github.com/DEIVID-HAK/Sistema-de-inventario-clase-yoimer">Sistema de inventario</a>.</sub></p>
+
 ---
 
 <a id="stack"></a>
